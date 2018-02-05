@@ -173,11 +173,12 @@ body {
 
 /*--------------MAINCONTENT!----------------*/
 
-/*.maincontent {
-    flex: 1 0 auto;
+.maincontent {
+	-webkit-transform: translateY(80px);
+    	transform: translateY(80px);
 }
-*/
 	/*--------------maintop----------------*/
+
 
 .maintop{
 	background: url('../img/background.jpg') center no-repeat;
