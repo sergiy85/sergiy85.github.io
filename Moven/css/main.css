@@ -22,7 +22,7 @@ body {
 	position: fixed;
 	background-color: #fff;
 	padding: 0;
-	top:0;
+	top: 0;
 	left:0;
 	z-index: 999;
 }
@@ -32,6 +32,13 @@ body {
 .logo-img{
 	width: 140px;
 	height: 26px;
+}
+
+
+/*-------------Nav---------------*/
+
+.nav{
+	padding:0; 
 }
 
 .nav-list {
@@ -175,13 +182,13 @@ body {
 
 .maincontent {
 	-webkit-transform: translateY(80px);
-    	transform: translateY(80px);
-	margin-top: -8px; /*убрал т.о. отступ между полоской
+    transform: translateY(80px);
+    margin-top: -8px; /*убрал т.о. отступ между полоской
     хедера и контентом, не уверен в правильности такого 
     решения, но работает...*/
 }
-	/*--------------maintop----------------*/
 
+	/*--------------maintop----------------*/
 
 .maintop{
 	background: url('../img/background.jpg') center no-repeat;
@@ -190,7 +197,8 @@ body {
 }
 .maintop__title{
 	color: #fff;
-	padding-top:150px; 
+	padding-top:200px;
+	margin: 0; 
 	text-align: center;
 	font-weight: 200;
 }
