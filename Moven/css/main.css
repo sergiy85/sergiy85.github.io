@@ -176,6 +176,9 @@ body {
 .maincontent {
 	-webkit-transform: translateY(80px);
     	transform: translateY(80px);
+	margin-top: -8px; /*убрал т.о. отступ между полоской
+    хедера и контентом, не уверен в правильности такого 
+    решения, но работает...*/
 }
 	/*--------------maintop----------------*/
 
