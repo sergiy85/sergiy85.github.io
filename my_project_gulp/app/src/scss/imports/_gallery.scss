@@ -1,0 +1,102 @@
+.gallery {
+    margin-top: 45px;
+}
+
+.gallery__btn-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.gallery__btn-item {
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+
+}
+
+.gallery__btn {
+    border: none;
+    background: none;
+    outline: none;
+    
+    cursor: pointer;
+    padding: 7px 20px;
+    color: #062033;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: background .1s ease-in-out,
+                color .1s ease-in-out;
+
+    &:hover {
+        background: $main-title-color;
+        color: #fff;
+    }
+}
+
+.gallery__btn--active {
+    background: $main-title-color;
+    color: #fff;
+}
+
+.gallery__content {
+    margin-top: 35px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery__img-container {
+    margin: 0;
+    width: 25%;
+    position: relative;
+    cursor: pointer;
+    &:hover .gallery__hover {
+        transform: rotateY(0);
+    }
+}
+
+.gallery__img {
+    display: block;
+    width: 100%;
+    > img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.gallery__hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform .4s linear;
+}
+.gallery__hover-link {
+    @include size(100%, 100%);
+    @include flexCenter;
+    flex-flow: column nowrap;
+    text-decoration: none;
+    color: #fff;
+}
+
+.gallery__icon {
+    @include flexCenter;
+    @include size(40px, 40px);
+    border: 1px solid currentColor; /* currentColor -- подставляет цвет, как цвет текста */
+    border-radius: 50%;
+}
+
+.gallery__descr {
+    margin: 25px 0 0 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.gallery__category {
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin-top: 10px;
+}

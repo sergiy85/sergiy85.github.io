@@ -1,0 +1,42 @@
+
+.features {
+    padding-bottom: 55px;
+}
+
+.features__list {
+    margin-top: 70px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__item {
+    padding-left: 55px;
+    position: relative;
+    width: 300px;
+}
+
+.features__icon {
+    @include flexCenter;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    border: 1px solid rgb(14,179,146);
+    width: 40px;
+    height: 40px;
+}
+
+.features__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #061f33;
+    margin: 0;
+}
+.features__descr-wrap > p {
+    margin: 18px 0 0 0;
+    line-height: 21px;
+    font-size: 13px;
+    color: #061f33;
+}

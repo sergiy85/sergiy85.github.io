@@ -1,0 +1,23 @@
+.header {
+    background: rgba(16, 22, 54, 0.2);
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: background .2s ease-in-out;
+    z-index: 999;
+}
+
+.header--active-color {
+    background: rgba(0, 0, 0, .7);
+}
+
+.inner-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__link {
+    display: block;
+}

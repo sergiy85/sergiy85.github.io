@@ -1,0 +1,21 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin size($width, $height: auto) {
+    width: $width;
+    height: $height;
+}
+
+@mixin placeholder {
+    &::-webkit-input-placeholder { @content; }
+    &::-moz-placeholder          { @content; }
+    &:-moz-placeholder           { @content; }
+    &:-ms-input-placeholder      { @content; }
+}
+
+@mixin ul{
+  list-style-type: none;
+}

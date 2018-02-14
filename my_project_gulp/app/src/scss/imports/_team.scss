@@ -1,0 +1,105 @@
+.team {
+    padding-bottom: 120px;
+}
+
+.team__list {
+    margin-top: 80px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.team__item {
+    width: 270px;
+    margin-top: 20px;
+    cursor: pointer;
+    &:hover .team__hover {
+        opacity: 1;
+    }
+    &:hover .team__person-name {
+        color: $main-title-color;
+    }
+}
+
+.team__img-container {
+    margin: 0;
+}
+
+.team__img {
+    @include size(100%, 300px);
+    position: relative;
+}
+
+.team__img-descr {
+    margin-top: 17px;
+    text-align: center;
+    color: #062033;
+}
+
+.team__person-name,
+.team__position {
+    display: block;
+}
+
+.team__person-name {
+    font-weight: 600;
+    font-size: 18px;
+    transition: color .1s ease-in-out;
+}
+
+.team__position {
+    font-size: 13px;
+    margin-top: 13px;
+}
+
+.team__hover {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity .1s ease-in-out;
+}
+.team__title {
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.team__descr {
+    font-weight: 400;
+    margin: 10px 0 0 0;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.team__social-list {
+    margin: auto 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.team__social-item {
+    border: 1px solid  rgba(0, 0, 0, .3);
+    transition: border .1s ease-in-out;
+    &:hover {
+        border-color: #fff;
+    }
+    &:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+.team__social-link {
+    @include size(41px, 41px);
+    @include flexCenter;
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+    text-decoration: none;
+}
