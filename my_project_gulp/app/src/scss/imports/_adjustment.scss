@@ -55,7 +55,7 @@ body {
     margin-bottom: 40px;
     margin-top: 0;
     display: inline-block;
-    
+
     &:before, &:after {
         content: '';
         position: absolute;
@@ -67,12 +67,12 @@ body {
         left: 0;
         bottom: 0;
     }
-    
+
     &:after {
         right: 0;
         bottom: 0;
     }
-    
+
     .heart {
         position: absolute;
         left: 50%;
