@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Конструктор IF/ELSE</title>
+</head>
+<body>
+	
+<script>
+// ================= с помощью if/else ===========================
+'use strict'
+
+const x = 5000;
+const y = 200000;
+const year1 = 2;
+const year2 = 5;
+const year3 = 10;
+const year4 = 15;
+const PERCENT = 0.1; // ставка 10%/год;
+let max = 3;
+
+for (let i = 1; i <= max; i++){	
+let money = +prompt('Введите сумму вклада (oт 5000 до 200000 грн)','');		
+
+if ((money !== null) || (money !== '')) {
+	
+		if ((money >= x) && (money <= y)){
+		let data = +prompt('Выберите срок (от 2 до 15 лет)','');
+
+			if ((data !== null) || (data !== '')) {
+		 
+				if ((data == year1) || (data == year2) || (data == year3) || (data == year4)){
+				let result = (data*money*PERCENT)+money;
+				let resultYear = money*PERCENT;
+				alert(`По окончанию срока Вы получите ${result} грн.\nЕжегодно ваша прибыль будет ${resultYear}  грн`);
+				break;
+				} 
+				else{
+					alert('Пожалуйста, введите корректные данные');
+					}
+			}
+	
+
+		}
+	else if ((money == '') || (money == null)) {
+	alert('Будьте здоровы!');
+	break;
+	}
+
+	else if (money < x) {
+		alert ('Это слишком маленькая сумма для вклада');
+	}
+	else if (money > y){
+		alert ('Извините, но такую сумму мы принять не можем.');
+	}
+	else {
+		alert('пожалуйста, введите корректные данные');
+	}
+	
+}
+
+}
+
+</script>
+
+
+
+
+</body>
+</html>
