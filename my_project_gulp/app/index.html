@@ -45,6 +45,13 @@
                     </ul>
                 </nav> <!-- nav -->
 
+                <button class="menu-btn" id="menu-btn">
+                    <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </button>
+
 
             </div> <!-- ./inner header -->
 
@@ -106,6 +113,32 @@
             </div>
 
             <ul class="features__list container">
+                <li class="features__item">
+                    <span class="features__icon">
+                        <img src="img/feather.svg" alt="">
+                    </span>
+                    <div class="features__content">
+                        <h3 class="features__title">Branding</h3>
+                        <div class="features__descr-wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla earum ipsam quae adipisci accusamus ea ut harum. Asperiores ad aliquid, minima nostrum nam enim quibusdam labore laudantium aperiam aspernatur nesciunt!
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="features__item">
+                    <span class="features__icon">
+                        <img src="img/feather.svg" alt="">
+                    </span>
+                    <div class="features__content">
+                        <h3 class="features__title">Branding</h3>
+                        <div class="features__descr-wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla earum ipsam quae adipisci accusamus ea ut harum. Asperiores ad aliquid, minima nostrum nam enim quibusdam labore laudantium aperiam aspernatur nesciunt!
+                            </p>
+                        </div>
+                    </div>
+                </li>
                 <li class="features__item">
                     <span class="features__icon">
                         <img src="img/feather.svg" alt="">
@@ -321,7 +354,7 @@
                     <figure class="team__img-container">
                         <div
                             class="team__img"
-                            style="background: url('img/photo1.jpg') no-repeat"
+                            style="background: url('img/photo1.jpg') no-repeat; background-size: cover;"
                         >
                             <div class="team__hover hover-overlay-params">
                                 <h3 class="team__title">Nemo enim ipsam lorem ipsudm dolor</h3>
@@ -356,40 +389,8 @@
                     <figure class="team__img-container">
                         <div
                             class="team__img"
-                            style="background: url('img/photo2.jpg') no-repeat"
+                            style="background: url('img/photo2.jpg') no-repeat; background-size: cover;"
                         >
-                            <div class="team__hover hover-overlay-params">
-                                <h3 class="team__title">Nemo enim ipsam lorem ipsudm dolor</h3>
-                                <p class="team__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-                                <ul class="team__social-list">
-                                    <li class="team__social-item">
-                                        <a href="#" class="team__social-link">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="team__social-item">
-                                        <a href="#" class="team__social-link">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li class="team__social-item">
-                                        <a href="#" class="team__social-link">
-                                            <i class="fab fa-google-plus-g"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <figcaption class="team__img-descr">
-                            <span class="team__person-name">John Doe</span>
-                            <span class="team__position">Lead Developer</span>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="team__item">
-                    <figure class="team__img-container">
-                        <div class="team__img" style="background: url('img/photo3.jpg') no-repeat">
                             <div class="team__hover hover-overlay-params">
                                 <h3 class="team__title">Nemo enim ipsam lorem ipsudm dolor</h3>
                                 <p class="team__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -423,7 +424,42 @@
                     <figure class="team__img-container">
                         <div
                             class="team__img"
-                            style="background: url('img/photo1.jpg') no-repeat"
+                            style="background: url('img/photo3.jpg') no-repeat; background-size: cover;"
+                        >
+                            <div class="team__hover hover-overlay-params">
+                                <h3 class="team__title">Nemo enim ipsam lorem ipsudm dolor</h3>
+                                <p class="team__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                                <ul class="team__social-list">
+                                    <li class="team__social-item">
+                                        <a href="#" class="team__social-link">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team__social-item">
+                                        <a href="#" class="team__social-link">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team__social-item">
+                                        <a href="#" class="team__social-link">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <figcaption class="team__img-descr">
+                            <span class="team__person-name">John Doe</span>
+                            <span class="team__position">Lead Developer</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="team__item">
+                    <figure class="team__img-container">
+                        <div
+                            class="team__img"
+                            style="background: url('img/photo1.jpg') no-repeat; background-size: cover;"
                         >
                             <div class="team__hover hover-overlay-params">
                                 <h3 class="team__title">Nemo enim ipsam lorem ipsudm dolor</h3>
@@ -515,7 +551,7 @@
         <section class="discuss section" id="contacts">
             <div class="section-title-wrap">
                 <h2 class="section__title">
-                    <span>LET'S DISCUSS</span>
+                    <span>meet our team</span>
                     <span class="heart">
                         <img src="img/heart.svg">
                     </span>
@@ -661,8 +697,10 @@
             </li>
           </ul>
         </div>
-    </footer> 
+    </footer>
 
+
+    <div class="overlay"></div>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/map.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

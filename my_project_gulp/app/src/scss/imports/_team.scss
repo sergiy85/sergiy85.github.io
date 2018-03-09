@@ -21,6 +21,10 @@
     &:hover .team__person-name {
         color: $main-title-color;
     }
+
+    @include responsive(651px) {
+        width: 300px;
+    }
 }
 
 .team__img-container {
@@ -30,6 +34,7 @@
 .team__img {
     @include size(100%, 300px);
     position: relative;
+    background-size: cover;
 }
 
 .team__img-descr {

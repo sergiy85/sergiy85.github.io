@@ -1,5 +1,9 @@
 .gallery {
     margin-top: 45px;
+
+    @include responsive(542px) {
+        margin-top: 35px;
+    }
 }
 
 .gallery__btn-list {
@@ -8,11 +12,16 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
 }
 .gallery__btn-item {
 
     &:not(:last-child) {
         margin-right: 10px;
+    }
+
+    @include responsive(542px) {
+        margin-top: 10px;
     }
 
 }
@@ -55,6 +64,14 @@
     cursor: pointer;
     &:hover .gallery__hover {
         transform: rotateY(0);
+    }
+
+    @include large {
+        width: 50%;
+    }
+
+    @include responsive(650px) {
+        width: 100%;
     }
 }
 

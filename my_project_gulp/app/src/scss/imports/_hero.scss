@@ -10,6 +10,10 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 50px;
+
+    @include small {
+        width: 100%;
+    }
 }
 
 .hero__description {
@@ -25,6 +29,10 @@
     span {
         font-weight: 700;
     }
+
+    @include small {
+        font-size: 42px;
+    }
 }
 
 
@@ -36,6 +44,9 @@
     
     > .green {
         color: #0eeb9e;
+    }
+    @include small {
+        font-size: 22px;
     }
 }
 
@@ -63,6 +74,13 @@
     }
     &:after {
         right: -28px;
+    }
+    @include small {
+        font-size: 16px;
+    }
+
+    @include extraSmall {
+        padding: 0 8px;
     }
 }
 

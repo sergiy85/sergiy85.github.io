@@ -4,17 +4,22 @@
 }
 
 .features__list {
-    margin-top: 70px;
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-flow: row wrap;
 }
 
 .features__item {
+    margin-top: 70px;
     padding-left: 55px;
     position: relative;
-    width: 300px;
+    width: 320px;
+
+    @include extraSmall {
+        width: 280px;
+    }
 }
 
 .features__icon {

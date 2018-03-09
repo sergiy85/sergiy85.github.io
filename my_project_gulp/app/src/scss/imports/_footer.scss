@@ -1,6 +1,7 @@
 .main-footer{
   background: #217566;
   width: 100%;
+  padding-bottom: 60px;
 }
 .footer__content {
     margin-top: 75px;
@@ -36,6 +37,9 @@
 .footer__submit{
   border: none;
   background: transparent;
+  vertical-align: middle;
+  color: #fff;
+  padding-left: 30px;
 }
 .footer__textfield {
 	width: 73%;
@@ -43,11 +47,7 @@
 	border: none;
 	color: #fff;
   font-size: 16px;
-}
-.material-icons{
-  color: #fff;
-  padding-left: 30px;
-  padding-top: 10px;
+  padding: 12px;
 }
 
 .footer__descr{

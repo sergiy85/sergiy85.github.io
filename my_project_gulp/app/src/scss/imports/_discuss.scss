@@ -6,11 +6,21 @@
     margin-top: 75px;
     display: flex;
     flex-flow: row nowrap;
+
+    @include medium {
+        flex-flow: row wrap;
+    }
 }
 
 .discuss__address {
     font-style: normal;
     width: 215px;
+
+    @include medium {
+        order: 2;
+        width: 100%;
+        margin-top: 25px;
+    }
 }
 
 .discuss__address-title {
@@ -43,17 +53,31 @@
     width: 50px;
     display: flex;
     justify-content: center;
+
+    @include medium {
+        order: 3;
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 25px;
+    }
 }
 
 .discuss__social-list {
     margin: 0;
     padding: 0;
     list-style: none;
+    @include medium {
+        display: flex;
+    }
 }
 
 .discuss__social-item {
     &:not(:first-child) {
         margin-top: 20px;
+
+        @include medium {
+            margin: 0 0 0 25px;
+        }
     }
 }
 
@@ -70,6 +94,12 @@
 .discuss__form-wrap {
     flex: 1 0;
     margin: 0 25px;
+
+    @include medium {
+        order: 1;
+        width: 100%;
+        flex: auto;
+    }
 }
 
 .discuss__form-title {
@@ -92,6 +122,13 @@
     width: calc(50% - 30px);
     &:nth-child(2n+1) {
         margin-right: 30px;
+    }
+
+    @include medium {
+        width: 100%;
+        &:nth-child(2n+1) {
+            margin-right: 0;
+        }
     }
 }
 

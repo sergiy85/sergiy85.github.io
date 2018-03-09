@@ -5,8 +5,8 @@
 **/
 @import "misc/mixins";
 @import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import "../libs/normalize/normalize";
 
 /**
@@ -33,3 +33,14 @@
 @import "imports/fact";
 @import "imports/discuss";
 @import "imports/footer";
+
+
+@include medium {
+  .section {
+    padding: 50px 0;
+  }
+
+  .work.section {
+    padding-bottom: 0;
+  }
+}

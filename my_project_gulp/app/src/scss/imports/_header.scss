@@ -6,6 +6,10 @@
     top: 0;
     transition: background .2s ease-in-out;
     z-index: 999;
+
+    @include responsive(651px) {
+        padding: 20px 0;
+    }
 }
 
 .header--active-color {
