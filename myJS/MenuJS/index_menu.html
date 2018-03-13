@@ -16,7 +16,7 @@
 				<span>Ресторан "Криївка" -</span>
 				<span>наше меню та  ціни</span>
 			</h2>	
-			<button class="menu-btn" value="Yes" id="btn"></button>
+			<button class="menu-btn" id="btn"></button>
 		</div>
 		
 	    <ul class="nav__list left">
@@ -28,7 +28,6 @@
 	        </li>
 	        <li class="nav__item">
 	            <span class="position">Паляниці з гострою намазкою</span><span class="weight">150</span><span class="price">58</span>
-	        </li>
 	        <li class="nav__item">
 	            <span class="position">Дари огіркової діжи (огірки квашені)</span><span class="weight">200</span><span class="price">32</span>
 	        </li>
@@ -48,7 +47,7 @@ const list = document.querySelector('.nav__list');
 
 let isOpen = false;
 btn.addEventListener('click', function (event) {
-    this.value = (!isOpen) ? 'Yes' : 'No';
+    
     isOpen = !isOpen;
     list.classList.toggle('left');
 });
