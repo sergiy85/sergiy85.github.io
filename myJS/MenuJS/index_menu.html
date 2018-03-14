@@ -42,16 +42,18 @@
 
 <script>
 
+window.addEventListener('DOMContentLoaded', init); // layout
+function init() {
+
 const btn = document.querySelector('#btn');
 const list = document.querySelector('.nav__list');
-
 let isOpen = false;
-btn.addEventListener('click', function (event) {
-    
+	btn.addEventListener('click', function (event) {
     isOpen = !isOpen;
     list.classList.toggle('left');
 });
 
+}
 
 </script>
 
