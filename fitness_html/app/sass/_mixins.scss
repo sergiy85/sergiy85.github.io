@@ -1,0 +1,38 @@
+$color-green: #a2ca28;
+$color-red: #fd634e;
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin large {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media screen and (max-width: 992px) {
+        @content;
+    }
+}
+
+@mixin small {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin extraSmall {
+    @media screen and (max-width: 451px) {
+        @content;
+    }
+}
+
+@mixin responsive($width) {
+    @media screen and (max-width: $width) {
+        @content;
+    }
+}
