@@ -1,0 +1,141 @@
+.header{
+  flex: 1 0;
+}
+
+.inner-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrap-container{
+    padding: 31px 60px;
+    margin: 0 auto;
+}
+
+
+// LOGO
+
+.logo__link{
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+  text-decoration: none;
+  width: 150px;
+  position: relative;
+
+  &:after {
+  	content: '';
+  	position: absolute;
+  	left: 25%;
+  	bottom: 0;
+  	background: $color-green;
+  	width: 0;
+  	height: 3px;
+  	transition: width .2s ease-in-out;
+
+}
+  &:hover:after {
+      width: 70%;
+  }
+}
+
+// NAVIGATION
+.nav {
+    transition: transform .2s ease-in-out;
+
+    @include responsive(651px) {
+        will-change: transform;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 230px;
+        height: 100vh;
+        background: #0d1119;
+        transform: translateX(-100%);
+        z-index: 1;
+      }
+}
+.nav--active {
+    @include responsive(651px) {
+        transform: translateX(0);
+    }
+}
+
+
+.nav__list{
+  margin: 0;
+  padding: 0;
+  @include flexCenter;
+  @include responsive(651px) {
+      flex-flow: column nowrap;
+      align-items: flex-start;
+      justify-content: space-around;
+      height: 100vh;
+  }
+}
+
+.nav__item:not(:last-child){
+  margin-right: 20px;
+  @include responsive(651px) {
+      margin: 0 0 10px 0;
+  }
+}
+
+.nav__link{
+  color: #fff;
+  font-size: 13px;
+  transition: color .2s ease-in-out;
+  padding: 20px 0;
+  position: relative;
+
+  &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: $color-green;
+      width: 0;
+      height: 1px;
+      transition: width .2s ease-in-out;
+  }
+
+  &:hover:before {
+      width: 100%;
+  }
+
+  &:hover {
+      color: $color-green;
+  }
+
+  @include responsive(651px) {
+      padding-left: 30px;
+      font-size: 18px;
+
+      &:active:before {
+          background: #fff;
+      }
+  }
+
+}
+// button-menu
+
+.menu-btn {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    @include flexCenter;
+    display: none;
+    font-size: 30px;
+
+    @include responsive(651px) {
+        display: flex;
+    }
+}
+
+.menu-btn:hover,
+.menu-btn:active{
+  color:$color-green;
+}
