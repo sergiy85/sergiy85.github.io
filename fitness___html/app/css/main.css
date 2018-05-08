@@ -491,17 +491,10 @@
   padding: 0;
 }
 
-.galery__bottom__content {
-  width: 100%;
-  height: 218px;
-  margin: 0;
-  padding: 0;
-}
-
 .galery__bottom__link {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 260px;
   text-align: left;
   margin: 0;
   padding: 25px;
@@ -515,19 +508,6 @@
   margin: 0 auto;
 }
 
-.galery__bottom__content--bk-green {
-  background-color: #a2ca28;
-  color: #fff;
-  text-align: left;
-  padding: 0;
-  font-size: 14px;
-  font-family: 'open_sanslight';
-  height: 218px;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
 .galery__bottom__link--bk-green {
   background-color: #a2ca28;
   color: #fff;
@@ -535,12 +515,7 @@
   padding: 25px;
   font-size: 14px;
   font-family: 'open_sanslight';
-  height: 100%;
-}
-
-.hover-params:hover {
-  -webkit-box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+  height: 260px;
 }
 
 .galery__bottom--title {
@@ -586,39 +561,73 @@
   width: 100%;
 }
 
-.b {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+.hover-params:before,
+.hover-params:after,
+.hover-params:hover {
+  -webkit-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  transition: all .4s ease-out;
 }
 
-.hover {
+.hover-params {
   position: relative;
-  background-color: #a2ca28;
+  overflow: hidden;
 }
 
-.hover::before {
+.hover-params:hover .galery__title--red,
+.hover-params:hover .galery__content--title__,
+.hover-params:hover .galery__descr,
+.hover-params:hover .galery__link,
+.hover-params:hover span .ion-waterdrop,
+.hover-params:hover .galery__title--fff,
+.hover-params:hover .galery__bottom--title,
+.hover-params:hover p {
+  position: relative;
+  z-index: 1;
+}
+
+.hover-params:hover .galery__title--red,
+.hover-params:hover .galery__content--title__,
+.hover-params:hover .galery__descr,
+.hover-params:hover .galery__link,
+.hover-params:hover span .ion-waterdrop,
+.hover-params:hover .galery__title--fff,
+.hover-params:hover .galery__bottom--title,
+.hover-params:hover .icon-waterdrop,
+.hover-params:hover p {
+  color: #fff;
+}
+
+.hover-params:before,
+.hover-params:after {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
-  border: 5px solid #000;
-  z-index: -1;
-  -webkit-transform: scale(1.01, 1.01);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 55ms;
-  -moz-transform: scale(1.01, 1.01);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 55ms;
+  width: 300%;
+  height: 100%;
+  -webkit-transform: skew(-30deg, 0deg);
+  -ms-transform: skew(-30deg, 0deg);
+  transform: skew(-30deg, 0deg);
+  z-index: 0;
 }
 
-.hover:hover::before {
-  z-index: 111;
+.hover-params:before {
+  top: 0;
+  left: 200%;
+  background: #fd634e;
+}
+
+.hover-params:after {
+  top: 0;
+  right: 200%;
+  background: #fd634e;
+}
+
+.hover-params:hover:after {
+  right: 49%;
+}
+
+.hover-params:hover:before {
+  left: 50%;
 }
 
 .lead {
