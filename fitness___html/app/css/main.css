@@ -539,12 +539,6 @@
 }
 
 .hover-params:hover {
-  -webkit-transform: scale(1.1, 1.1);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 550ms;
-  -moz-transform: scale(1.1, 1.1);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 550ms;
   -webkit-box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
 }
@@ -590,6 +584,41 @@
   font-size: 14px;
   color: #fff;
   width: 100%;
+}
+
+.b {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hover {
+  position: relative;
+  background-color: #a2ca28;
+}
+
+.hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  border: 5px solid #000;
+  z-index: -1;
+  -webkit-transform: scale(1.01, 1.01);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 55ms;
+  -moz-transform: scale(1.01, 1.01);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 55ms;
+}
+
+.hover:hover::before {
+  z-index: 111;
 }
 
 .lead {
