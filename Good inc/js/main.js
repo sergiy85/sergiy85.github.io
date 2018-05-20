@@ -7,7 +7,7 @@ $(function() {
   let overlay = $('.overlay');
 
   btn.on('click', function(e) {
-    // e.preventDefault();
+    e.preventDefault();
     nav.addClass('nav--active');
     overlay.addClass('overlay--active');
     $('body').addClass('body-fixed');
