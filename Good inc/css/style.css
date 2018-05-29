@@ -299,23 +299,9 @@ padding-left: 5px;
 	color: #8f8f8f;
 }
 
-
-
-@media screen and (max-width: 801px){
-	.social{
-		display: flex;
-		flex-direction: column;
-		margin: 15px;
-		transform: translateX(-10%); 
-	}
-	.social__list{
-		margin-top: 10px;
-		justify-content: flex-start;
-	}
-}
-@media screen and (max-width: 360px){
-	.social{
-		transform: translateX(-30%);
+@media screen and (max-width: 581px){
+	.social, .container{
+		width: 100%;
 	}
 	.social__item{
 		padding: 0 14px;
@@ -329,10 +315,24 @@ padding-left: 5px;
 	}
 
 }
+
+@media screen and (max-width: 801px){
+	.social{
+		display: flex;
+		flex-direction: column;
+		/*margin: 15px;*/
+		transform: translateX(-10%); 
+	}
+	.social__list{
+		margin-top: 10px;
+		justify-content: flex-start;
+	}
+}
+
 /* /./social */
 
 
-@media screen and (max-width: 801px){
+@media screen and (max-width: 360px){
 	.section-banner{
 		width: 100%;
 		flex-direction: column;
@@ -348,8 +348,25 @@ padding-left: 5px;
 		flex:0;
 		width: 100%;
 	}
-	.banner--descr{
+	/*.banner--descr{
 		left:0;
+	}*/
+}
+
+
+@media screen and (max-width: 979px){
+	.section-banner{
+		width: 100%;
+		flex-direction: column;
+	}
+	.banner__list{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 980px){
+	.banner__list{
+		min-width: 631px;
 	}
 }
 
@@ -361,7 +378,7 @@ padding-left: 5px;
 /* photoes properties */
 
 .banner__list{
-	max-width: 631px;
+	/*min-width: 631px;*/
 	height: 393px;
 	position: relative;
 	display: flex;
@@ -384,12 +401,12 @@ padding-left: 5px;
 .banner--descr{
 	text-align: left;
 	color: #fff;
-	margin: 0 0 -3px 0;
+	/*margin: 0 0 -3px 0;*/
 	width: 65%;
 	position: absolute;
-	right: 25%;
-	bottom: -50px;
-	transform: translateX(50%);
+	right: 0;
+	bottom: 0;
+	/*transform: translateX(50%);*/
 	transition: all .2s ease-in-out;
 }
 .banner__item:hover .banner--descr{
@@ -472,6 +489,32 @@ padding-left: 5px;
 
 /* SLIDER */
 
+@media screen and (max-width: 1200px){
+	.slider__item{
+		width: 325px;
+	}
+}
+
+@media screen and (max-width: 981px){
+	.slider{
+		max-width: 970px;
+	}
+	.slider__item{
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 801px){
+	.slider{
+		max-width: 719px;
+	}
+}
+
+@media screen and (max-width: 360px){
+	.slider{
+		max-width: 348px;
+	}
+}
 .slider{
 	width: 1033px;
 	margin: 16px auto; 

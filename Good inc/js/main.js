@@ -101,7 +101,7 @@ $(document).ready(function(){
     let slideWidth = $('.slider__item').outerWidth();
     let newLeftPos = slideWrap.position().left - slideWidth;
     
-    nextLink.click(function(){
+    prevLink.click(function(){
       if(!slideWrap.is(':animated')) {
   
         slideWrap.animate({left: newLeftPos}, 500, function(){
@@ -115,7 +115,7 @@ $(document).ready(function(){
       }
     });
 
-    prevLink.click(function(){
+    nextLink.click(function(){
       if(!slideWrap.is(':animated')) {
       
         slideWrap
