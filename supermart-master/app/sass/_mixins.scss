@@ -1,0 +1,23 @@
+@mixin title-h2(){
+	font-family: 'ralewaybold';
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+@mixin title-h3(){
+	font-family: 'ralewaymedium';
+	font-size: 14px;
+	line-height: 20px;
+}
+
+@mixin title-p(){
+	font-family: 'robotomedium';
+	font-size: 12px;
+	line-height: 20px;
+}
+
+$color-blue: #408de4;
+$color-white: #fff;
+$color-black: #000;
+$color-yellow: #ffd200;
+ 

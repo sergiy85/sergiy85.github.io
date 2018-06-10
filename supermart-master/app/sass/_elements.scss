@@ -1,0 +1,26 @@
+.btn {
+	@include title-p();
+	padding: 5px 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+/* **************raiting-list */
+.card__rating {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.rating-list {
+	display: flex;
+
+}
+.rating-list__item {
+	font-size: 12px;
+	transition: color .3s aese;
+	&:hover {
+		color: $color-yellow;
+	}
+}
+.rating-list__item.active{
+	color: $color-yellow;
+}

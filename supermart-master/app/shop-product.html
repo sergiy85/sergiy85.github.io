@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>supermart</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/font.css">
+      <link rel="stylesheet" href="css/libs.min.css">
+      <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrap header-wrap--top">
+            <div class="container top-panel">
+                <div class="top-navigation top-navigation-left">
+                    <div class="navbar navbar--left">
+                        <a href="#text-popup2" class="navbar__link navbar__link--padding popup-content">
+                        login
+                        </a>
+                        <span class="navbar__span">/</span>
+                        <a href="#" class="navbar__link">
+                        signup
+                        </a>
+                        <div id="text-popup2" class="white-popup mfp-hide">
+                            <div class="form-account">
+                                <div class="form-account__content">
+                                    <h2 class="form-account__title">Create your free account</h2>
+
+                                    <p class="form-account__subtitle">Come and join our cool and amazing community, fill in your details to get started. Already have an account? 
+                                        <span><a href="#" class="form-account__link">Log in.</a></span>
+                                    </p>
+                                    
+                                    <form action="#" class="form-sing" id="form-sing">
+                                        <div class="form-wrap">
+                                            <div class="form-wrap--col">
+                                                <label>
+                                                    <input type="text" name="first-name" placeholder="First name"  class="form-sing__input form-control-login">
+                                                </label>
+                                            </div>
+                                            <div class="form-wrap--col">
+                                                <label>
+                                                    <input type="text" name="last-name" placeholder="Last name"  class="form-sing__input  form-control-password">
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <label>
+                                            <input type="text" name="email " placeholder="Email address"  class="form-sing__input  form-control-login">
+                                        </label>
+
+                                        <label>
+                                            <input type="password" name="password" placeholder="Password"  class="form-sing__input  form-control-password">
+                                        </label>
+
+                                        <div class="button-wrap">
+                                            <button type="submit" class="btn" for="form-sing">Sign up for free
+                                            </button>
+                                        </div>
+
+                                        <p class="form-account__subtitle">By clicking on “Sign up for free”, you agree to the 
+                                            <span>
+                                                <a href="#" class="form-account__link">Terms of Service</a>
+                                            </span>
+                                             and the
+                                            <span>
+                                                <a href="#" class="form-account__link">Privacy Policy</a>
+                                            </span>
+                                        </p>
+                                        
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-menu">
+                         <ul class="language-menu-list"> 
+                            <li data-lang="en" class="language-menu__item active"><i class="flag flag-gb"></i> en</li>
+                            <li data-lang="ru" class="language-menu__item"><i class="flag flag-ru"></i> ru</li>
+                            <li data-lang="en" class="language-menu__item"><i class="flag flag-de"></i> de</li>
+                            <li data-lang="il" class="language-menu__item"><i class="flag flag-il"></i> il</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="top-navigation top-navigation-right">
+                    <div class="navbar navbar--right">
+                        <a href="#" class="navbar__link navbar-right__link">
+                                    help
+                        </a>
+                        <a href="#" class="navbar__link navbar-right__link">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    wishlist
+                        </a>
+                    </div>
+                    <div class="navbar-menu navbar-menu-money">
+                        <div id="currensy" class="currensy">
+                            <i class="fa fa-sort-desc currensy__icon " aria-hidden="true"></i>
+                            <p class="currensy-tag">usd</p>
+                            <ul id="currensy-list" class="currensy-list">
+                                <li class="option">usd</li>
+                                <li class="option">eur</li>
+                                <li class="option">gbr</li>
+                                <li class="option">usd</li>
+                                <li class="option">eur</li>
+                                <li class="option">gbr</li>
+                                <li class="option">usd</li>
+                                <li class="option">eur</li>
+                                <li class="option">gbr</li>
+                                <li class="option">usd</li>
+                                <li class="option">eur</li>
+                                <li class="option">gbr</li>
+                                          
+                            </ul>
+                        </div>
+                    </div>
+                    <batton class="btn btn-top">DOWNLOAD APP</batton>
+                </div>
+            </div>
+        </div>
+        <div class="header-wrap header-wrap--main"> 
+            <div class="container">
+                <div class="header-main">
+                    <a href="#" class="logo">
+                            <img class="logo__img" src="img/Logo.png" alt="logo">
+                    </a>
+                    <div class="form-wrap">
+                        <form class="search-form">
+                            <input id="search-form" type="text" placeholder="search..." class="search-form__input">
+                            <select name="year" class="search-form__select">
+                                <option value="2000">all categories</option>
+                                <option value="2001">mobile</option>
+                                <option value="2001">sports</option>
+                                <option value="2001">foods</option>
+                                <option value="2001">shoes</option>
+                                <option value="2001">decors</option>
+                                <option value="2001">electronics</option>
+                                <option value="2001">accessories</option>
+                                <option value="2001">fashion</option>
+                           </select>
+                           <button class="search-form__submit" type="submit" form="search-form"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                        <div class="header-cart">
+                            <button class="btn btn--cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i></button>
+                            <span class="cart__items">0 item:</span>
+                            <span id="cart-items" class="cart__money">$0.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-wrap header-wrap--nav">
+            <div class="container">
+                <div class="nav-wrap">
+                    <div class="category-menu toggle-wrap">
+                        <h2 class="category-menu__title toggle ">
+                            departaments 
+                        </h2>
+                        <ul class="category-menu-list toggle_cont ">
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-desktop" aria-hidden="true"></i>Fashion & Clothing</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-mobile" aria-hidden="true"></i>Mobile Phones</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-futbol-o" aria-hidden="true"></i>Sports & Outerwear</a>
+                             </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-leaf" aria-hidden="true"></i>Foods & Fruits</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-tags" aria-hidden="true"></i>Beauty & Health</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Shoes & Bags</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-camera-retro" aria-hidden="true"></i>Decors & Home</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-plug" aria-hidden="true"></i>Electronics & Hitech</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-headphones" aria-hidden="true"></i>Accessories</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-apple" aria-hidden="true"></i>Digital Software</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav class="main-menu">
+                        <div class="main-menu__icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <h2>menu</h2>
+                        </div>
+                            
+                        <ul class="main-menu-list">
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="index.html" class="main-menu__link toggle">home
+                                </a>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="shop-product.html" class="main-menu__link toggle">shop</a>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                    <a href="#" class="main-menu__link main-menu__link--icon toggle">fashion
+                                    </a>
+                                    <ul class="submenu toggle_cont toggle_cont--state-open">
+                                        <li class="submenu__item">
+                                            <ul class="submenu-lev2">
+                                                <li class="submenu-lev2__item">
+                                                    <h3 class="submenu__title">shope types</h3>
+                                                    <a class="submenu-lev2__link" href="#">Tailored car Mats</a>
+                                                    <a class="submenu-lev2__link" href="#">Floor & Cargo Mats</a>
+                                                    <a class="submenu-lev2__link" href="#">Car Seat Covers</a>
+                                                    <a class="submenu-lev2__link" href="#">Steering Wheel Covers</a>
+                                                    <a class="submenu-lev2__link" href="#">Storage & Organization</a>
+                                                    <a class="submenu-lev2__link" href="#">Tow Bars</a>
+                                                </li>
+                                                <li class="submenu-lev2__item">
+                                                     <h3 class="submenu__title">product page</h3>
+                                                    <a class="submenu-lev2__link" href="#">Car Covers</a>
+                                                    <a class="submenu-lev2__link" href="#">Cargo Management</a>
+                                                    <a class="submenu-lev2__link" href="#">Exterior Car Decoration</a>
+                                                    <a class="submenu-lev2__link" href="#">Headlight</a>
+                                                    <a class="submenu-lev2__link" href="#">Taillights</a>
+                                                    <a class="submenu-lev2__link" href="#">Combination Taillight</a>
+                                                </li>
+                                                <li class="submenu-lev2__item">
+                                                     <h3 class="submenu__title">shope pages</h3>
+                                                    <a class="submenu-lev2__link" href="#">Brake light</a>
+                                                    <a class="submenu-lev2__link" href="#">Mirrors</a>
+                                                    <a class="submenu-lev2__link" href="#">Bonnet & Tailgate Struts</a>
+                                                    <a class="submenu-lev2__link" href="#">Cables & Hinges</a>
+                                                    <a class="submenu-lev2__link" href="#">Fuel Tanks & Caps</a>
+                                                    <a class="submenu-lev2__link" href="#">Grilles</a>
+                                                </li>
+                                                <li class="submenu-lev2__item submenu--banner">
+                                                    <div class="banner">
+                                                        <img src="img/krosovki.jpg" alt="Rectangle" class="banner__img">
+                                                        <div class="banner__content">
+                                                            <h2 class="banner__title">
+                                                                  CUSTOM WHEELS
+                                                            </h2>
+                                                            <p class="banner__subtitle">
+                                                                  up to 30%
+                                                            </p>
+                                                            <batton class="btn btn--slider btn--banner">shop now</batton>
+                                                      </div>
+                                                    </div>
+                                                </li>
+                                                </ul>
+                                          </li>
+                                    </ul>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="#" class="main-menu__link toggle">electronics
+                                </a>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="#" class="main-menu__link toggle">pages
+                                </a>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="#" class="main-menu__link toggle">features</a>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="#" class="main-menu__link toggle">blog</a>
+                            </li>
+                        </ul>
+                        <div class="call-us">
+                            <span class="cal-us__text">call us frre :</span>
+                            <a href="#" class="call-us__link">1-800-777-696</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <main class="main main-stock-product">
+        <section class="section section-stock-product container">
+           <div class="cart-full-product">
+               <div class="cart-full-content">
+                   <div class="cart-full-wrap">
+                       <ul class="pgwSlideshow">
+                           <li><img src="img/lakosta_lacoste_brend_chasy_naruchnye_stilnye_cifry_ciferblat_20346_800x1280.jpg" alt=""></li>
+                           <li><img src="img/lakosta_lacoste_brend_chasy_naruchnye_stilnye_krokodil_20345_800x1280.jpg" alt=""></li>
+                           <li><img src="img/omega_chasy_naruchnye_stil_remeshok_ciferblat_38240_800x1280.jpg" alt=""></li>
+                           <li>
+                               <a href="#" target="_blank">
+                                   <img src="img/lakosta_lacoste_brend_chasy_zhenskie_krasivye_naruchnye_stilnye_remeshok_ciferblat_20347_800x1280.jpg" alt="">
+                               </a>
+                           </li>
+                       </ul> 
+                   </div>
+                   <div class="cart-full-wrap">
+                       <div class="cart-full-info">
+                           <h2 class="cart-full__title">vistalia pure honey</h2>
+                           <div class="cart-full__rating"></div>
+                           <div class="cart-full__price">$18.00</div>
+                           <p class="cart-full__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint itaque, repellat. Optio recusandae, repellendus ut qui sapiente veniam quam, commodi a. Modi repellendus illo autem molestias recusandae, fugit dicta a.</p>
+                           <ul class="stock-list">
+                               <li class="stock__item"><a href="#" class="stock__link active">Out of Stock</a></li>
+                               <li class="stock__item"><a href="#" class="stock__link">Gift-wrap available</a></li>
+                           </ul>
+                           <ul class="cart-full-icons-list">
+                               <li class="cart-full-icons__item"><a href="#" class="cart-full-icons__link"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                               <li class="cart-full-icons__item"><a href="#" class="cart-full-icons__link"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
+                           </ul>
+                           <div class="cart-full__atributes">
+                               <h3 class="atributes">sku: <span class="atributes__info">017</span></h3>
+                               <h3 class="atributes">Category: <span class="atributes__info">clock, outwear</span></h3>
+                               <h3 class="atributes">Tags: <span class="atributes__info">Clothing, Mens</span></h3>
+                           </div>
+                           <div class="cart-full__social-share">
+                               <h3 class="atributes">Share:</h3>
+                               <ul class="social-share-list">
+                                   <li class="social-share__item">
+                                       <a href="#" class="social-share__link">
+                                       <i class="fa fa-facebook" aria-hidden="true"></i
+                                           >Share
+                                       </a>
+                                   </li>
+                                   <li class="social-share__item">
+                                       <a href="#" class="social-share__link">
+                                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                                            Twiter
+                                       </a>
+                                   </li>
+                                   <li class="social-share__item">
+                                       <a href="#" class="social-share__link">
+                                           <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                               Pin it
+                                       </a>
+                                   </li>
+                                   <li class="social-share__item social-share__item--quantity">
+                                       <a href="#" class="social-share__link">+521</a>
+                                   </li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="cart-full-description">
+                   <ul class="full-description-list toggle-wrap">
+                      <li class="full-description__item">
+                           <h2 class="full-description__category toggle ">description</h2>
+                           <div class="full-description__text toggle_cont">
+                              <div class="wrap--border">
+                                   <h3 class="full-description__title">Reviews for VIstalia Pure Honey</h3>
+                                  <p class="full-description__sutitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident totam accusantium id voluptatem repudiandae, et excepturi tenetur quisquam, placeat quo ducimus doloremque, reiciendis quaerat quis dolores? Modi, saepe sed officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sed repellat corporis. Provident officiis, dolore vitae ducimus accusantium, architecto harum repellendus nemo reiciendis placeat velit nostrum incidunt sapiente, itaque voluptate.</p>
+                              </div>
+                           </div>
+                       </li>
+                       <li class="full-description__item">
+                           <h2 class="full-description__category toggle">customer review</h2>
+                           <div class="full-description__text toggle_cont">
+                              <div class="wrap--border">
+                                   <h3 class="full-description__title">Reviews for VIstalia Pure Honey</h3>
+                                  <p class="full-description__sutitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident totam accusantium id voluptatem repudiandae, et excepturi tenetur quisquam, placeat quo ducimus doloremque, reiciendis quaerat quis dolores? Modi, saepe sed officia.</p>
+                              </div>
+                           </div>
+                       </li>
+                       <li class="full-description__item">
+                           <h2 class="full-description__category toggle">additional information</h2>
+                           <div class="full-description__text toggle_cont">
+                              <div class="wrap--border">
+                                   <h3 class="full-description__title">Reviews for VIstalia Pure Honey</h3>
+                                  <p class="full-description__sutitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident totam accusantium id voluptatem repudiandae, et excepturi tenetur quisquam, placeat quo ducimus doloremque, reiciendis quaerat quis dolores? Modi, saepe sed officia.</p>
+                              </div>
+                           </div>
+                       </li>
+                      
+                   </ul>
+               </div>
+           </div>
+        </section>
+    </main>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main-style.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+</body>
+</html>

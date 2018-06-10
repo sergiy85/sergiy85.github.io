@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>supermart</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/font.css">
+      <link rel="stylesheet" href="css/libs.min.css">
+      <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrap header-wrap--top">
+            <div class="container top-panel">
+                <div class="top-navigation top-navigation-left">
+                    <div class="navbar navbar--left">
+                        <a href="#text-popup2" class="navbar__link navbar__link--padding popup-content">
+                        login
+                        </a>
+                        <span class="navbar__span">/</span>
+                        <a href="#" class="navbar__link">
+                        signup
+                        </a>
+                        <div id="text-popup2" class="white-popup mfp-hide">
+                            <div class="form-account">
+                                <div class="form-account__content">
+                                    <h2 class="form-account__title">Create your free account</h2>
+
+                                    <p class="form-account__subtitle">Come and join our cool and amazing community, fill in your details to get started. Already have an account?
+                                        <span><a href="#" class="form-account__link">Log in.</a></span>
+                                    </p>
+
+                                    <form action="#" class="form-sing" id="form-sing">
+                                        <div class="form-wrap">
+                                            <div class="form-wrap--col">
+                                                <label>
+                                                    <input type="text" name="first-name" placeholder="First name"  class="form-sing__input form-control-login">
+                                                </label>
+                                            </div>
+                                            <div class="form-wrap--col">
+                                                <label>
+                                                    <input type="text" name="last-name" placeholder="Last name"  class="form-sing__input  form-control-password">
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <label>
+                                            <input type="text" name="email " placeholder="Email address"  class="form-sing__input  form-control-login">
+                                        </label>
+
+                                        <label>
+                                            <input type="password" name="password" placeholder="Password"  class="form-sing__input  form-control-password">
+                                        </label>
+
+                                        <div class="button-wrap">
+                                            <button type="submit" class="btn" for="form-sing">Sign up for free
+                                            </button>
+                                        </div>
+
+                                        <p class="form-account__subtitle">By clicking on “Sign up for free”, you agree to the
+                                            <span>
+                                                <a href="#" class="form-account__link">Terms of Service</a>
+                                            </span>
+                                             and the
+                                            <span>
+                                                <a href="#" class="form-account__link">Privacy Policy</a>
+                                            </span>
+                                        </p>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-menu">
+                         <ul class="language-menu-list">
+                            <li data-lang="en" class="language-menu__item active"><i class="flag flag-gb"></i> en</li>
+                            <li data-lang="ru" class="language-menu__item"><i class="flag flag-ru"></i> ru</li>
+                            <li data-lang="en" class="language-menu__item"><i class="flag flag-de"></i> de</li>
+                            <li data-lang="il" class="language-menu__item"><i class="flag flag-il"></i> il</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="top-navigation top-navigation-right">
+                    <div class="navbar navbar--right">
+                        <a href="#" class="navbar__link navbar-right__link">
+                                    help
+                        </a>
+                        <a href="#" class="navbar__link navbar-right__link">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    wishlist
+                        </a>
+                    </div>
+                    <div class="navbar-menu navbar-menu-money">
+                        <div id="currensy" class="currensy">
+                            <i class="fa fa-sort-desc currensy__icon " aria-hidden="true"></i>
+                            <p class="currensy-tag">usd</p>
+                            <ul id="currensy-list" class="currensy-list">
+                                <li class="option">usd</li>
+                                <li class="option">eur</li>
+                                <li class="option">gbr</li>
+                                <li class="option">usd</li>
+                                <li class="option">eur</li>
+                                <li class="option">gbr</li>
+                                <li class="option">usd</li>
+                                <li class="option">eur</li>
+                                <li class="option">gbr</li>
+                                <li class="option">usd</li>
+                                <li class="option">eur</li>
+                                <li class="option">gbr</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <batton class="btn btn-top">DOWNLOAD APP</batton>
+                </div>
+            </div>
+        </div>
+        <div class="header-wrap header-wrap--main">
+            <div class="container">
+                <div class="header-main">
+                    <a href="#" class="logo">
+                            <img class="logo__img" src="img/Logo.png" alt="logo">
+                    </a>
+                    <div class="form-wrap">
+                        <form class="search-form">
+                            <input id="search-form" type="text" placeholder="search..." class="search-form__input">
+                            <select name="year" class="search-form__select">
+                                <option value="2000">all categories</option>
+                                <option value="2001">mobile</option>
+                                <option value="2001">sports</option>
+                                <option value="2001">foods</option>
+                                <option value="2001">shoes</option>
+                                <option value="2001">decors</option>
+                                <option value="2001">electronics</option>
+                                <option value="2001">accessories</option>
+                                <option value="2001">fashion</option>
+                           </select>
+                           <button class="search-form__submit" type="submit" form="search-form"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                        <div class="header-cart">
+                            <button class="btn btn--cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i></button>
+                            <span class="cart__items">0 item:</span>
+                            <span id="cart-items" class="cart__money">$0.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-wrap header-wrap--nav">
+            <div class="container">
+                <div class="nav-wrap">
+                    <div class="category-menu toggle-wrap">
+                        <h2 class="category-menu__title toggle ">
+                            departaments
+                        </h2>
+                        <ul class="category-menu-list toggle_cont ">
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-desktop" aria-hidden="true"></i>Fashion & Clothing</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-mobile" aria-hidden="true"></i>Mobile Phones</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-futbol-o" aria-hidden="true"></i>Sports & Outerwear</a>
+                             </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-leaf" aria-hidden="true"></i>Foods & Fruits</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-tags" aria-hidden="true"></i>Beauty & Health</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Shoes & Bags</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-camera-retro" aria-hidden="true"></i>Decors & Home</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-plug" aria-hidden="true"></i>Electronics & Hitech</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-headphones" aria-hidden="true"></i>Accessories</a>
+                            </li>
+                            <li class="category-menu__item">
+                                <a class="category-menu__link" href="#"><i class="fa fa-apple" aria-hidden="true"></i>Digital Software</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav class="main-menu">
+                        <div class="main-menu__icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <h2>menu</h2>
+                        </div>
+
+                        <ul class="main-menu-list">
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="#" class="main-menu__link toggle">home
+                                </a>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="shop-product.html" class="main-menu__link toggle">shop</a>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                    <a href="#" class="main-menu__link main-menu__link--icon toggle">fashion
+                                    </a>
+                                    <ul class="submenu toggle_cont toggle_cont--state-open">
+                                        <li class="submenu__item">
+                                            <ul class="submenu-lev2">
+                                                <li class="submenu-lev2__item">
+                                                    <h3 class="submenu__title">shope types</h3>
+                                                    <a class="submenu-lev2__link" href="#">Tailored car Mats</a>
+                                                    <a class="submenu-lev2__link" href="#">Floor & Cargo Mats</a>
+                                                    <a class="submenu-lev2__link" href="#">Car Seat Covers</a>
+                                                    <a class="submenu-lev2__link" href="#">Steering Wheel Covers</a>
+                                                    <a class="submenu-lev2__link" href="#">Storage & Organization</a>
+                                                    <a class="submenu-lev2__link" href="#">Tow Bars</a>
+                                                </li>
+                                                <li class="submenu-lev2__item">
+                                                     <h3 class="submenu__title">product page</h3>
+                                                    <a class="submenu-lev2__link" href="#">Car Covers</a>
+                                                    <a class="submenu-lev2__link" href="#">Cargo Management</a>
+                                                    <a class="submenu-lev2__link" href="#">Exterior Car Decoration</a>
+                                                    <a class="submenu-lev2__link" href="#">Headlight</a>
+                                                    <a class="submenu-lev2__link" href="#">Taillights</a>
+                                                    <a class="submenu-lev2__link" href="#">Combination Taillight</a>
+                                                </li>
+                                                <li class="submenu-lev2__item">
+                                                     <h3 class="submenu__title">shope pages</h3>
+                                                    <a class="submenu-lev2__link" href="#">Brake light</a>
+                                                    <a class="submenu-lev2__link" href="#">Mirrors</a>
+                                                    <a class="submenu-lev2__link" href="#">Bonnet & Tailgate Struts</a>
+                                                    <a class="submenu-lev2__link" href="#">Cables & Hinges</a>
+                                                    <a class="submenu-lev2__link" href="#">Fuel Tanks & Caps</a>
+                                                    <a class="submenu-lev2__link" href="#">Grilles</a>
+                                                </li>
+                                                <li class="submenu-lev2__item submenu--banner">
+                                                    <div class="banner">
+                                                        <img src="img/krosovki.jpg" alt="Rectangle" class="banner__img">
+                                                        <div class="banner__content">
+                                                            <h2 class="banner__title">
+                                                                  CUSTOM WHEELS
+                                                            </h2>
+                                                            <p class="banner__subtitle">
+                                                                  up to 30%
+                                                            </p>
+                                                            <button class="btn btn--slider btn--banner">shop now</button>
+                                                      </div>
+                                                    </div>
+                                                </li>
+                                                </ul>
+                                          </li>
+                                    </ul>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="#" class="main-menu__link toggle">electronics
+                                </a>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="#" class="main-menu__link toggle">pages
+                                </a>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="#" class="main-menu__link toggle">features</a>
+                            </li>
+                            <li class="main-menu__item btn-group toggle-wrap">
+                                <a href="#" class="main-menu__link toggle">blog</a>
+                            </li>
+                        </ul>
+                        <div class="call-us">
+                            <span class="cal-us__text">call us frre :</span>
+                            <a href="#" class="call-us__link">1-800-777-696</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main">
+        <section class="section section-title">
+            <div class="container section-title--wrap">
+                <h1 class="section-title__title">ABOUT US</h1>
+
+                <div class="section-title__title--wrap-menu">
+                  <ul class="section-title__list">
+                    <li class="section-title__item">
+                        <a href="#" class="section-title__link">HOME/</a>
+                    </li>
+                    <li class="section-title__item">
+                        <a href="#" class="section-title__link">ABOUT US</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </section>
+
+<!-- about -->
+        <section class="section-about container">
+          <!-- <div class="container"> -->
+            <div class="about-box">
+              <!-- <div class="about-box__img"> -->
+                <div class="about-box__img--img">
+                  <img src="img/About-Us.png" alt="" class="about-box__img">
+                </div>
+
+              <div class="about-info">
+                <h2 class="about-info__title">
+                  Hello, We are Supermart Established
+                  <span>2006 - Newyork</span>
+                </h2>
+                <p class="about-info__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugiat officia aliquid minus laudantium est animi ullam, nihil nulla delectus.
+                </p>
+                <p class="about-info__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repudiandae cupiditate nisi dolor et molestias autem voluptatibus assumenda quibusdam illo, recusandae labore id aliquam.
+                  Ab illo optio, quos asperiores, praesentium dolorum.</p>
+                <a href="#" class="about-link">CONTACT US</a>
+              </div>
+
+          </div>
+        </section>
+<!-- .//about -->
+
+<!-- works -->
+        <section class="section works">
+            <ul class="works__list container">
+                <li class="works__item">
+                    <div class="circle">
+                      <img src="img/mob.svg" alt="">
+                    </div>
+                    <h3 class="works__title">STRATEGY & MARCETING</h3>
+                    <p class="works__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ipsam impedit nobis cum sit facilis porro quae non eaque adipisci perferendis,
+                      aut quam id incidunt accusamus expedita veniam quidem tenetur velit.</p>
+                    </li>
+                <li class="works__item">
+                    <div class="circle">
+                      <img src="img/clock.svg" alt="">
+                    </div>
+                    <h3 class="works__title">STRATEGY & MARCETING</h3>
+                    <p class="works__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ipsam impedit nobis cum sit facilis porro quae non eaque adipisci perferendis,
+                      aut quam id incidunt accusamus expedita veniam quidem tenetur velit.</p>
+                    </li>
+                <li class="works__item">
+                    <div class="circle">
+                      <img src="img/victory.svg" alt="">
+                    </div>
+                    <h3 class="works__title">STRATEGY & MARCETING</h3>
+                    <p class="works__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ipsam impedit nobis cum sit facilis porro quae non eaque adipisci perferendis,
+                      aut quam id incidunt accusamus expedita veniam quidem tenetur velit.</p>
+                </li>
+            </ul>
+        </section>
+  <!-- ./works -->
+
+<!-- facts -->
+        <section class="section facts">
+          <ul class="facts__list container">
+            <li class="facts__item">
+              <span class="facts-count">142</span>
+              <span class="facts-descr">Total Employees</span>
+            </li>
+            <li class="facts__item">
+              <span class="facts-count">99</span>
+              <span class="facts-descr">% Satisfaction</span>
+            </li>
+            <li class="facts__item">
+              <span class="facts-count">4214</span>
+              <span class="facts-descr">Cups of Cofee</span>
+            </li>
+            <li class="facts__item">
+              <span class="facts-count">4.7</span>
+              <span class="facts-descr">Buyers Rating</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- team -->
+        <section class="section team">
+          <div class="team__title--wrap container">
+            <h2 class="team__title">MEET THE TEAM</h2>
+            <p class="team__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <ul class="team__list container">
+            <li class="team-item">
+               <div class="team__img">
+                 <img src="img/img2_2.jpeg" alt="" class="team__img--img">
+               </div>
+               <div class="team__img--descr">
+                 <span class="team__person">GEORGE GREY</span>
+                 <span class="team__position">Head of Investment</span>
+                 <address class="team__social">
+                   <ul class="team__social-list">
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                   </ul>
+               </address>
+             </div>
+             </li>
+             <li class="team-item">
+               <div class="team__img">
+                 <img src="img/img3_3.jpeg" alt="" class="team__img--img">
+               </div>
+               <div class="team__img--descr">
+                 <span class="team__person">SCOOTER LIBBY</span>
+                 <span class="team__position">Creative Director</span>
+                 <address class="team__social">
+                   <ul class="team__social-list">
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                   </ul>
+               </address>
+             </div>
+             </li>
+             <li class="team-item">
+               <div class="team__img">
+                 <img src="img/img4_4.jpeg" alt="" class="team__img--img">
+               </div>
+               <div class="team__img--descr">
+                 <span class="team__person">HANNA LUCY</span>
+                 <span class="team__position">Marketing Director</span>
+                 <address class="team__social">
+                   <ul class="team__social-list">
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                   </ul>
+               </address>
+             </div>
+             </li>
+             <li class="team-item">
+               <div class="team__img">
+                 <img src="img/img1_1.jpeg" alt="" class="team__img--img">
+               </div>
+               <div class="team__img--descr">
+                 <span class="team__person">EVEN CHESLER</span>
+                 <span class="team__position">Sales Director</span>
+                 <address class="team__social">
+                   <ul class="team__social-list">
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                     <li class="team__social-item">
+                       <a href="#" class="team__social-link">
+                         <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                       </a>
+                     </li>
+                   </ul>
+               </address>
+             </div>
+             </li>
+          </ul>
+        </section>
+<!--.//team  -->
+
+</main>
+
+<footer class="main-footer">
+           <!-- four elements features-->
+      <div class="wrapper">
+          <div class="features__container container">
+            <div class="wrap-paire">
+              <ul class="features__list">
+
+                <li class="features__items">
+                  <img src="img/freeshp.png" alt="" class="features__img">
+                  <h3 class="features__title">FREE SHIPPING</h3>
+                  <span class="features__descr">Free Shipping on World wide Order Over $99.</span>
+                </li>
+                <li class="features__items">
+                  <img src="img/trust.png" alt="" class="features__img">
+                  <h3 class="features__title">Trusted Pay</h3>
+                  <span class="features__descr">100% Payment Protection &amp;  Easy Return</span>
+                </li>
+              </ul>
+            </div>
+            <div class="wrap-paire">
+              <ul class="features__list">
+                <li class="features__items">
+                  <img src="img/payment.png" alt="" class="features__img">
+                  <h3 class="features__title">Secured Payment</h3>
+                  <span class="features__descr">All Major Credit &amp; Debit Cards Accepted</span>
+                </li>
+                <li class="features__items">
+                  <img src="img/shopapp.png" alt="" class="features__img">
+                  <h3 class="features__title">Shop on app</h3>
+                  <span class="features__descr">Just Dowload our App &amp; Shop  With Best Offers!</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+    <!-- ./four elements features-->
+    <!-- section of subscribe -->
+  <div class="subscribe__wrapper">
+    <div class="subscribe__container container">
+      <div class="subscribe__section">
+        <ul class="subscribe__list-label">
+          <li class="list-label__item label-ico">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+          </li>
+          <li class="list-label__item">
+            <label for="field">
+              <span class="label-title">SIGNUP to NEWSLETTER</span>
+            </label>
+          </li>
+        </ul>
+        <ul class="list-sbscr">
+          <li class="list-sbscr__item main-footer__form">
+            <form action="#" class="form__subscr">
+              <input type="email" id="field" placeholder="Enter Your Email Address" required>
+            </form>
+            <button type="submit" class="subscribe__btn" form="form__subscr">Submit</button>
+          </li>
+        </ul>
+      </div>
+      <div class="social-container">
+        <ul class="list-social">
+          <li class="list-social__item wide">
+            <span class="list-social__descr">Keep in touch</span>
+          </li>
+          <li class="list-social__item">
+            <a href="#" class="social-link">
+              <span class="soc-ico-wrap"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+            </a>
+          </li>
+          <li class="list-social__item">
+            <a href="#" class="social-link">
+              <span class="soc-ico-wrap"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+            </a>
+          </li>
+          <li class="list-social__item">
+            <a href="#" class="social-link">
+              <span class="soc-ico-wrap"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+            </a>
+          </li>
+          <li class="list-social__item">
+            <a href="#" class="social-link">
+              <span class="soc-ico-wrap"><i class="fa fa-pinterest" aria-hidden="true"></i></span>
+            </a>
+          </li>
+          <li class="list-social-item">
+            <a href="#" class="social-link">
+              <span class="soc-ico-wrap"><i class="fa fa-vimeo" aria-hidden="true"></i></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <!-- ./section of subscriber -->
+    <!-- content of footer -->
+<div class="footer__content-wrapper">
+  <div class="footer__content-container container">
+    <ul class="footer__content-list">
+      <li class="footer__content-item">
+        <address class="footer__address">
+          <ul class="inner-list">
+            <li class="inner-list-item">
+                        <span class="footer__address-title">
+                          Supermart
+                      </span>
+                    </li>
+                        <li class="inner-list-item">
+                            <span class="footer__address-content">
+                                Many say exploration is part of our dest but it’s actually our duty to future and their.
+                            </span>
+                        </li>
+                        <li class="inner-list-item">
+                            <span class="descr-title">Address:</span><span class="descr-content"> 868 Fake Street, New York</span>
+                        </li>
+                        <li class="inner-list-item">
+                            <a href="tel:080847521499" class="footer__address-content">
+                               <span class="descr-title"> Phone:</span> (08) 08 4752 1499
+                            </a>
+                        </li>
+                        <li class="inner-list-item">
+                            <a href="mailto:info@supermart.com" class="footer__address-content">
+                               <span class="descr-title">Email:</span> info@supermart.com
+                            </a>
+                        </li>
+
+                    </ul>
+                </address>
+      </li>
+      <li class="footer__content-item">
+        <ul class="inner-list">
+          <li class="inner-list-item">
+            <h3 class="inner-list__title">COMPANY</h3>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">
+              Discount Vouches
+            </a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">
+              Spring Collection
+            </a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">
+              Trending
+            </a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">
+              Best Sellers
+            </a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">
+              Special Deals
+            </a>
+          </li>
+
+        </ul>
+      </li>
+      <li class="footer__content-item">
+        <ul class="inner-list">
+          <li class="inner-list-item">
+            <h3 class="inner-list__title">POLICY INFO</h3>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">
+              Orders &amp; Returns
+            </a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">
+              Advanced Search
+            </a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">
+              Help &amp; FAQs
+            </a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">
+              Consultant
+            </a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">
+              Store Locations
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer__content-item">
+        <ul class="inner-list">
+          <li class="inner-list-item">
+            <h3 class="inner-list__title">My Account</h3>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">About Us</a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">Delivery Information</a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">Privacy Policy</a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">Terms &amp; Conditions</a>
+          </li>
+          <li class="inner-list-item">
+            <a href="#" class="inner-list__link">Custom Link</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+  <!-- ./content of footer -->
+    <!-- bottom copyright -->
+<div class="copyright-wrap">
+  <div class="copyright">
+    <span class="copyright__content">&copy; Copyright - Supermart Template by DesignFalls</span>
+  </div>
+</div>
+  <!-- ./bottom copyright -->
+</footer>
+
+</main>
+      <script src="js/libs.min.js"></script>
+      <script src="js/main-style.js"></script>
+      <script src="js/jquery-3.2.1.min.js"></script>
+</body>
+</html>

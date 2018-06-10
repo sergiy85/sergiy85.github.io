@@ -1,0 +1,46 @@
+
+@import 'app/sass/smart-grid.scss';
+@import 'app/sass/_mixins';
+@import 'app/sass/_megamenu';
+@import 'app/sass/_header';
+@import 'app/sass/_elements';
+@import 'app/sass/_flags';
+@import 'app/sass/_section-top-slider';
+@import 'app/sass/_category-menu';
+@import 'app/sass/_shop-product';
+@import 'app/sass/_slider-sidebar';
+@import 'app/sass/_blog';
+@import 'app/sass/_about-content';
+@import 'app/sass/_footer';
+@import 'app/sass/_contact';
+@import 'app/sass/_categories';
+@import 'app/sass/_wishlist';
+@import 'app/sass/_slider-sidebar';
+@import 'app/sass/_about-content';
+@import 'app/sass/_product-cart-item';
+@import 'app/sass/_section-banner';
+@import 'app/sass/_slider-sidebar';
+@import 'app/sass/_about-content';
+@import 'app/sass/_product-cart-item';
+
+$font_family: 'Raleway' , 'Roboto', sans-serif , 'FontAwesome';
+* ,
+*:before ,
+*:after {
+	box-sizing: border-box;
+}
+body {
+	@include reset();
+	font: 16px/18px $font_family;
+	background-color: white;
+	margin: 0;
+
+	display: flex;
+    flex-flow: column nowrap;
+}
+.container {
+	@include wrapper();
+}
+.main {
+	 flex: 1 0 auto;
+}

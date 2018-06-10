@@ -1,0 +1,153 @@
+.main__header {
+	background: url(../img/Call-Center.jpg) center;
+	background-color: rgb(104, 104, 104);
+	background-size: cover;
+	padding: 95px 0;
+	display: flex;
+	align-items: center;
+	
+
+}
+
+.main__content {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 80px 0 100px 0;
+}
+
+.main__content-block {
+	@include col();
+	@include size(6);
+	@include size-sm(12);
+	@include sm-block() {
+		&:last-child {
+			padding-top:25px;
+		}
+	}
+}
+
+.main__content-title {
+	font-size: 18px;
+	line-height: 26px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.main__header-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	width: 100%;
+	@include sm-block(){
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+.main__header-item {
+	&:not(:last-child):after {
+		content: ' /';
+		color: #fff;
+		padding-right: 15px;
+	}
+
+}
+
+.main__header-item>span {
+	font-size: 32px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.main__header-item:first-child {
+	margin-right: auto;
+	&:after {
+		content: none;
+	}
+	@include sm-block(){
+		width: 100%;
+		padding-bottom: 15px;
+	}
+}
+
+.main__header-link {
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	&:hover{
+		color: #555;
+	}
+}
+
+
+
+
+
+// .center-link{
+// 	&:after, &:before {
+// 		content: '/';
+// 	}
+// }
+
+
+.main__content-list {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 100%;
+}
+
+.main__content-item:nth-child(even) {
+	padding-top: 16px;
+}
+
+.main__content-input {
+	width: 100%;
+	height: 45px;
+	padding-left: 15px;
+}
+
+.title-input {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(102, 102, 102, 1);
+	font-weight: 400;
+}
+
+.red {
+	color: rgb(255, 0, 0);
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}
+
+#main__content-field {
+	width: 100%;
+	height: 150px;
+	resize: none;
+	padding-left: 15px;
+}
+
+
+.cont-btn {
+	border: none;
+	background-color: rgb(64, 141, 228);
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 18px 25px;
+	font-size: 14px;
+}
+
+#map {
+   width: 100%;
+   height: 340px;
+   background-color: grey;
+ }
