@@ -1,0 +1,73 @@
+.fact {
+    width: 100%;
+    background: url('../img/fact.jpg') center center no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+    padding-bottom: 160px;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:  rgba(6, 32, 51, 0.8);
+    }
+}
+
+.section__title--fact {
+    &:before, &:after {
+        background: rgba(255, 255, 255, .5);
+    }
+}
+
+.fun__list {
+    position: relative;
+    z-index: 99;
+    margin: 75px 0 0 0;
+    padding: 0 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    @include medium {
+        flex-flow: row wrap;
+    }
+}
+
+.fun__item {
+    width: 300px;
+
+    @include medium {
+        margin-top: 20px;
+    }
+}
+
+.fun__icon {
+    @include size(130px, 130px);
+    border-radius: 50%;
+    @include flexCenter;
+    border: 1px solid rgba(255, 255, 255, .4);
+    margin: 0 auto;
+}
+
+.fun__content {
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    > span {
+        display: block;
+    }
+}
+
+.fun__count {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.fun__descr {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
