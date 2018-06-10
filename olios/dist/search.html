@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  <link rel="stylesheet" type="text/css" href="../src/libs/slick/slick-theme.css"/>-->
+    <link rel="stylesheet" href="style/main.min.css">
+</head>
+<body>
+
+<button class="ui-circle-btn menu-btn ui-reset-btn" id="menu-btn">
+    <i class="material-icons menu-btn__icon-menu">menu</i>
+    <i class="material-icons menu-btn__icon-close">close</i>
+</button>
+
+<!--  main menu -->
+
+<div class="main-menu" id="main-menu">
+    <ul class="categories__list">
+        <li class="categories__item">
+            <a href="#" class="categories__link">living room
+                <img src="img/livingRoomIcon.svg" alt="living room" class="categories__img">
+            </a>
+        </li>
+        <li class="categories__item">
+            <a href="#" class="categories__link">office
+                <img src="img/officeIcon.svg" alt="office" class="categories__img">
+            </a>
+        </li>
+        <li class="categories__item">
+            <a href="#" class="categories__link">for kids
+                <img src="img/forKidsIcon.svg" alt="for kids" class="categories__img">
+            </a>
+        </li>
+        <li class="categories__item">
+            <a href="#" class="categories__link">kitchen
+                <img src="img/kitchenIcon.svg" alt="kitchen" class="categories__img">
+            </a>
+        </li>
+        <li class="categories__item">
+            <a href="#" class="categories__link">accesories
+                <img src="img/accesoriesIcon.svg" alt="accesories" class="categories__img">
+            </a>
+        </li>
+    </ul>
+
+    <a href="#" class="main-menu__link">show all categories</a>
+</div><!--  /main menu -->
+<!-- aside -->
+<aside class="main-aside main-aside--active" id="main-aside">
+
+    <!-- logo -->
+    <div class="logo">
+        <a href="index.html" class="logo__link">
+            <img src="img/logo.png" alt="Company logo" class="logo__img">
+        </a>
+    </div> <!-- ./logo -->
+
+    <!-- aside controls -->
+    <ul class="aside-controls__list">
+        <li class="aside-controls__item">
+            <a href="index.html" class="aside-controls__btn aside-controls__btn--home"></a>
+        </li>
+        <li class="aside-controls__item">
+            <a href="#" class="aside-controls__btn aside-controls__btn--basket ui-reset-btn"></a>
+        </li>
+        <li class="aside-controls__item">
+            <a href="search.html" class="aside-controls__btn aside-controls__btn--search ui-reset-btn"></a>
+        </li>
+        <li class="aside-controls__item">
+            <a href="#" class="aside-controls__btn aside-controls__btn--in ui-reset-btn"></a>
+        </li>
+    </ul> <!-- ./aside controls -->
+
+</aside> <!-- ./aside -->
+
+<!-- maincontent -->
+<main class="maincontent maincontent--search-page">
+    <div class="container">
+
+        <!-- search form -->
+        <form class="search-form">
+            <div class="input-wrap">
+                <input type="text" id="search" class="search-form__input">
+                <label for="search" class="search-form__label">Type product that you are looking for</label>
+
+                <button type="button" class="search-form__reset ui-reset-btn" id="form-reset">
+                    <i class="material-icons">close</i>
+                </button>
+            </div>
+        </form> <!-- ./search form -->
+        <div class="preloader" id="preloader"></div>
+
+        <div class="result-count">
+            <span class="count"></span>
+            <span>Searched Result</span>
+        </div>
+
+       <ul class="trade-list">
+
+            <!-- <li class="trade__item">
+                <a href="#" class="trade__link">
+                    <img src="img/redSeat.png" alt="" class="trade__img">
+                    <span class="trade__deskr">red seat</span>
+                </a>
+            </li>
+            <li class="trade__item">
+                <a href="#" class="trade__link">
+                    <img src="img/darkSeat.png" alt="" class="trade__img">
+                    <span class="trade__deskr">dark seat</span>
+                </a>
+            </li>-->
+        </ul>
+
+    </div>
+
+</main> <!-- ./maincontent -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/libs/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

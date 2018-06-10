@@ -1,0 +1,60 @@
+:root {
+  --large-container: 1200px;
+ }
+
+@custom-media --xxsmall (width <= 320px);
+@custom-media --xsmall (width <= 500px);
+@custom-media --small (width <= 768px);
+@custom-media --medium (width <= 1031px);
+@custom-media --large (width <= 1205px);
+@custom-media --xlarge (width <= 1700px);
+
+
+
+@define-mixin fontSize $count {
+	font-size: calc($count*1)px;
+	line-height: calc( $count + 2 )px;
+}
+
+@define-mixin container {
+	width: var(--large-container);
+	margin: 0 auto;
+	padding: 0 15px;
+
+	@media (--large) {
+		width: 1024px;
+	}
+
+	@media (--medium) {
+		width: 771px;
+	}
+
+	@media (--small) {
+		width: 100%;
+	}
+}
+
+@define-mixin center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+ }
+
+@define-mixin placeholder $color, $size: 16px {
+	&::-webkit-input-placeholder {
+		color: $color;
+		font-size: $size;
+	}
+	&:-moz-placeholder {
+		color: $color;
+		font-size: $size;
+	}
+	&::-moz-placeholder {
+		color: $color;
+		font-size: $size;
+	}
+	&:-ms-input-placeholder {
+		color: $color;
+		font-size: $size;
+	}
+}

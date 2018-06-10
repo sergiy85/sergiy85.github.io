@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  <link rel="stylesheet" type="text/css" href="../src/libs/slick/slick-theme.css"/>-->
+    <link rel="stylesheet" href="style/main.min.css">
+</head>
+<body class="body-no-overflow">
+
+<button class="ui-circle-btn menu-btn ui-reset-btn" id="menu-btn">
+    <i class="material-icons menu-btn__icon-menu">menu</i>
+    <i class="material-icons menu-btn__icon-close">close</i>
+</button>
+
+<!--  main menu -->
+
+<div class="main-menu" id="main-menu">
+    <ul class="categories__list">
+        <li class="categories__item">
+            <a href="#" class="categories__link">living room
+                <img src="img/livingRoomIcon.svg" alt="living room" class="categories__img">
+            </a>
+        </li>
+        <li class="categories__item">
+            <a href="#" class="categories__link">office
+                <img src="img/officeIcon.svg" alt="office" class="categories__img">
+            </a>
+        </li>
+        <li class="categories__item">
+            <a href="#" class="categories__link">for kids
+                <img src="img/forKidsIcon.svg" alt="for kids" class="categories__img">
+            </a>
+        </li>
+        <li class="categories__item">
+            <a href="#" class="categories__link">kitchen
+                <img src="img/kitchenIcon.svg" alt="kitchen" class="categories__img">
+            </a>
+        </li>
+        <li class="categories__item">
+            <a href="#" class="categories__link">accesories
+                <img src="img/accesoriesIcon.svg" alt="accesories" class="categories__img">
+            </a>
+        </li>
+    </ul>
+
+    <a href="#" class="main-menu__link">show all categories</a>
+</div><!--  /main menu -->
+<!-- aside -->
+<aside class="main-aside main-aside--active" id="main-aside">
+
+    <!-- logo -->
+    <div class="logo">
+        <a href="index.html" class="logo__link">
+            <img src="img/logo.png" alt="Company logo" class="logo__img">
+        </a>
+    </div> <!-- ./logo -->
+
+    <!-- aside controls -->
+    <ul class="aside-controls__list">
+        <li class="aside-controls__item">
+            <a href="index.html" class="aside-controls__btn aside-controls__btn--home"></a>
+        </li>
+        <li class="aside-controls__item">
+            <a href="#" class="aside-controls__btn aside-controls__btn--basket ui-reset-btn"></a>
+        </li>
+        <li class="aside-controls__item">
+            <a href="search.html" class="aside-controls__btn aside-controls__btn--search ui-reset-btn"></a>
+        </li>
+        <li class="aside-controls__item">
+            <a href="#" class="aside-controls__btn aside-controls__btn--in ui-reset-btn"></a>
+        </li>
+    </ul> <!-- ./aside controls -->
+
+</aside> <!-- ./aside -->
+
+<!-- maincontent -->
+<main class="maincontent products-auto-height">
+    <div class="container ">
+        <div class="products__top">
+            <h3 class="products__main-title">products</h3>
+            <a href="#" class="categories__link">living room
+                <img src="img/livingRoomIcon.svg" alt="living room" class="categories__img">
+            </a>
+        </div>
+        <div class="products__grid-wrap">
+            <a href="#" class="products__link small-card">
+                <figure class="small-card__container">
+                    <img src="img/redSeat.png" class="small-card__img">
+                    <figcaption class="small-card__descr-wrap">
+                        <h3 class="small-card__title">red seat</h3>
+                        <span class="small-card__descr">Lorem ipsum dolor sit amet.</span>
+                        <span class="small-card__price">45$</span>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#" class="products__link large-card">
+                <figure class="large-card__container">
+                    <img src="img/Photo.png" class="large-card__img">
+                    <figcaption class="large-card__descr-wrap">
+                        <h3 class="large-card__title">red seat</h3>
+                        <span class="large-card__descr">Lorem ipsum dolor sit amet.</span>
+                        <span class="large-card__price">45$</span>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#" class="products__link small-card">
+                <figure class="small-card__container">
+                    <img src="img/Photo3.png" class="small-card__img">
+                    <figcaption class="small-card__descr-wrap">
+                        <h3 class="small-card__title">red seat</h3>
+                        <span class="small-card__descr">Lorem ipsum dolor sit amet.</span>
+                        <span class="small-card__price">45$</span>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#" class="products__link medium-card">
+                <figure class="medium-card__container">
+                    <img src="img/Photo2.png" class="medium-card__img">
+                    <figcaption class="medium-card__descr-wrap">
+                        <h3 class="medium-card__title">red seat</h3>
+                        <span class="medium-card__descr">Lorem ipsum dolor sit amet.</span>
+                        <span class="medium-card__price">45$</span>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#" class="products__link small-card">
+                <figure class="small-card__container">
+                    <img src="img/darkSeat.png" class="small-card__img">
+                    <figcaption class="small-card__descr-wrap">
+                        <h3 class="small-card__title">red seat</h3>
+                        <span class="small-card__descr">Lorem ipsum dolor sit amet.</span>
+                        <span class="small-card__price">45$</span>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+       <div class="products__load-more-wrap">
+            <button class="products__load-more">show red more</button>
+       </div>
+    </div>
+    
+    </main> <!-- ./maincontent -->
+    <div class="preloader" id="preloader"></div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/libs/slick.min.js"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/nunjucks/3.0.1/nunjucks.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

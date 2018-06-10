@@ -1,0 +1,46 @@
+.aside-controls__list {
+  padding: 0;
+  margin: 150px 0 0 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 100%;
+}
+
+.aside-controls__item {
+
+  &:not(:first-child) {
+    margin-top: 85px;
+  }
+
+  &:last-child {
+    margin-top: auto;
+  }
+}
+
+.aside-controls__btn {
+  size: 30px;
+  display: block;
+  cursor: pointer;
+}
+
+.aside-controls__btn--home {
+  background: url('../img/Home.png') center center no-repeat;
+  background-size: 20px;
+}
+
+.aside-controls__btn--basket {
+  background: url('../img/Basket.png') center center no-repeat;
+  background-size: 20px;
+}
+
+.aside-controls__btn--search {
+  background: url('../img/Search.png') center center no-repeat;
+  background-size: 20px;
+}
+
+.aside-controls__btn--in {
+  background: url('../img/In.png') center center no-repeat;
+  background-size: 20px;
+}
