@@ -1,0 +1,18 @@
+@import "./aside-controls.css";
+
+.main-aside {
+  padding: 30px 0 100px 0;
+  size: 145px 100vh;
+  background: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-shadow: 0px 0px 25px 0px rgba(219, 219, 219, .5);
+
+  z-index: 999;
+   @media screen and (max-width: 1600px) {
+    width: 80px;
+  }
+}
+
+
