@@ -1,0 +1,10 @@
+.partners__list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: 79px;
+}
+.partners__item  img{
+  width: 100%;
+  object-fit: cover;
+}

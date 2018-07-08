@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+
+//============ bootstrap components =========
+
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import "../../../node_modules/bootstrap/scss/_functions";
+@import "../../../node_modules/bootstrap/scss/_variables";
+@import "../../../node_modules/bootstrap/scss/_mixins";
+// @import "../../../node_modules/bootstrap/scss/_print";
+@import '../../../node_modules/bootstrap/scss/reboot';
+@import "../../../node_modules/bootstrap/scss/_type";
+@import "../../../node_modules/bootstrap/scss/_images";
+// @import "../../../node_modules/bootstrap/scss/_code";
+// @import "../../../node_modules/bootstrap/scss/_tables";
+@import "../../../node_modules/bootstrap/scss/_forms";
+@import "../../../node_modules/bootstrap/scss/_buttons";
+@import "../../../node_modules/bootstrap/scss/_transitions";
+@import "../../../node_modules/bootstrap/scss/_dropdown";
+@import "../../../node_modules/bootstrap/scss/_button-group";
+@import "../../../node_modules/bootstrap/scss/_input-group";
+@import "../../../node_modules/bootstrap/scss/_custom-forms";
+@import "../../../node_modules/bootstrap/scss/_nav";
+@import "../../../node_modules/bootstrap/scss/_navbar";
+@import "../../../node_modules/bootstrap/scss/_card";
+// @import "../../../node_modules/bootstrap/scss/_breadcrumb";
+// @import "../../../node_modules/bootstrap/scss/_pagination";
+// @import "../../../node_modules/bootstrap/scss/_badge";
+// @import "../../../node_modules/bootstrap/scss/_jumbotron";
+// @import "../../../node_modules/bootstrap/scss/_alert";
+// @import "../../../node_modules/bootstrap/scss/_progress";
+@import '../../../node_modules/bootstrap/scss/media';
+// @import "../../../node_modules/bootstrap/scss/_list-group";
+// @import "../../../node_modules/bootstrap/scss/_close";
+// @import "../../../node_modules/bootstrap/scss/_modal";
+// @import "../../../node_modules/bootstrap/scss/_tooltip";
+// @import "../../../node_modules/bootstrap/scss/_popover";
+// @import "../../../node_modules/bootstrap/scss/_carousel";
+@import "../../../node_modules/bootstrap/scss/_utilities";
+
+//============= layout components ================
+@import '_header.scss';
+@import '_navbar.scss';
+@import '_form.scss';
+@import '_about.scss';
+@import '_features.scss';
+@import '_advantages.scss';
+@import "_testimonials.scss";
+@import "_team.scss";
+@import "_accordions.scss";
+@import "_works.scss";
+@import "_galery.scss";
+@import "_blog.scss";
+@import "_partners.scss";
+@import "_footer.scss";
+@import "_fontawesom.scss";
+@import "fonts.scss";
+
+
+body{
+  font-family: 'Lato', sans-serif !important;
+  font-style: normal !important;
+  color: #fff;
+  overflow-x: hidden;
+}
+ul{
+  list-style-type: none;
+}
+.maincontent{
+  margin-top: 20%;
+  padding-bottom: 109px;
+  color: rgba(51, 51, 51, 0.8);
+  @media(max-width:768px){
+    margin-top: 50%;
+  }
+}
+.section__title{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 79px;
+}
+.section__descr{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 49px;
+}
+
+.section__content--descr{
+  font-size: 18px;
+  margin-top: 40px;
+}
+.section__content--title{
+  font-size: 24px;
+  font-weight: 400;
+}
+.overlay {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    background: rgba(0, 0, 0, .4);
+}
+
+.overlay--active {
+    display: block;
+}
+
+.body-fixed {
+    overflow: hidden;
+    width: 100%;
+}

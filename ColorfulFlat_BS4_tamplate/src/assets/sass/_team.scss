@@ -1,0 +1,25 @@
+.team{
+  background: #fff;
+}
+.team__list{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 73px;
+  @media(max-width:768px){
+    flex-direction: column;
+  }
+}
+.team__title{
+  margin-top: 32px;
+  font-size: 24px;
+}
+.team__position{
+  margin-top: 18px;
+  color: #5dbdfe;
+  font-size: 16px;
+}
+.team__descr{
+  margin-top: 18px;
+  font-size: 18px;
+}
