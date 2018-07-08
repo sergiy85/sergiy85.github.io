@@ -138,12 +138,12 @@ gulp.task("media:build", function() {
 
 gulp.task("image:build", function () {
     gulp.src(path.src.img)
-        // .pipe(imagemin({
-        //     optimizationLevel: 3,
-        //     progressive: true,
-        //     svgoPlugins: [{removeViewBox: false}],
-        //     interlaced: true
-        // }))
+        .pipe(imagemin({
+            optimizationLevel: 3,
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            interlaced: true
+        }))
         .pipe(gulp.dest(path.build.img));
 });
 
