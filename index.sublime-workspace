@@ -1,0 +1,812 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"le",
+				"length"
+			],
+			[
+				"n",
+				"num2"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"ma",
+				"maxlength"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"fo",
+				"foundPos"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"do",
+				"dog"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"sp",
+				"space-around"
+			],
+			[
+				"bo",
+				"border-right"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"Ol",
+				"Olios-L2"
+			],
+			[
+				"Goo",
+				"GoodInc"
+			],
+			[
+				"font-si",
+				"font-size-adjust"
+			],
+			[
+				"wo",
+				"works__item"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"use",
+				"userProgressCallBack"
+			],
+			[
+				"tim",
+				"time"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"m",
+				"masOut"
+			],
+			[
+				"pr",
+				"prNum"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"inp",
+				"inp1"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"ite",
+				"item-active"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"obje",
+				"object-fit"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"s",
+				"flex-start"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"acc",
+				"accordion__descr"
+			],
+			[
+				"acco",
+				"accordion__title"
+			],
+			[
+				"im",
+				"img-2"
+			],
+			[
+				"img",
+				"img-1"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"slider",
+				"slider__item"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"overfl",
+				"overflow"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"gale",
+				"galery__params"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ro",
+				"row-reverse"
+			],
+			[
+				"tex",
+				"text-decoration-color"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"aj",
+				"ajaxGet"
+			],
+			[
+				"auto",
+				"autofocus\tAttr"
+			],
+			[
+				"animatio",
+				"animation-iteration-count"
+			],
+			[
+				"ea",
+				"ease-in-out"
+			],
+			[
+				"anima",
+				"animation-timing-function"
+			],
+			[
+				"animat",
+				"animation-name"
+			],
+			[
+				"sc",
+				"scrol"
+			],
+			[
+				"e",
+				"ev"
+			],
+			[
+				"bt",
+				"btn--up"
+			],
+			[
+				"height",
+				"Height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"overflow",
+				"overflow-y"
+			],
+			[
+				"g",
+				"galery-scrol"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"qu",
+				"querySelectorAll"
+			],
+			[
+				"btn",
+				"btn_prev"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"curr",
+				"currentCount"
+			],
+			[
+				"cur",
+				"currentCount"
+			],
+			[
+				"cu",
+				"currentCount"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"scroll",
+				"scrollPath"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"nav",
+				"navHeight"
+			],
+			[
+				"na",
+				"nav__link--active"
+			],
+			[
+				"off",
+				"offsetTop"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"a",
+				"accordion"
+			],
+			[
+				"b",
+				"body\tTag"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"con",
+				"const"
+			],
+			[
+				"N",
+				"NaN"
+			],
+			[
+				"mo",
+				"moneyZero"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"ye",
+				"year1"
+			],
+			[
+				"da",
+				"dataNoNaN"
+			],
+			[
+				"is",
+				"isNaN"
+			],
+			[
+				"str",
+				"startTrue"
+			],
+			[
+				"dat",
+				"dataTrue"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"А",
+				"Админ"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"pd",
+				"padding"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"lo",
+				"logo"
+			],
+			[
+				"fl",
+				"flex-shrink"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"inline",
+				"inline-flex"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"ra",
+				"ralewayregular"
+			],
+			[
+				"fmf",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: e",
+		"selected_items":
+		[
+			[
+				"Package Control: e",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 479.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sergiy/GIT/sergiy85.github.io/Good inc/css/fonts.css",
+		"/home/sergiy/GIT/sergiy85.github.io/index.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/animationCat.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/SLIDER/3.js",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/SLIDER/slider.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/calc.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/massivAs.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/VUE_/directives2.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/VUE_/директивы3.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/VUE_/directives.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/firstObject.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/str3.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/str1.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/str2.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/fibBinet.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/index.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/7_min_max.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/6_number2.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/5_number.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/4_fib.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/3_recursia.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/2.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/learnJS/1.html",
+		"/home/sergiy/GIT/sergiy85.github.io/myJS/jQuery_scroll/index_scroll.html",
+		"/home/sergiy/GIT/sergiy85.github.io/ColorfulFlat_BS4_tamplate/gulpfile.js",
+		"/home/sergiy/GIT/sergiy85.github.io/Good inc/index.html",
+		"/home/sergiy/GIT/sergiy85.github.io/Good inc/js/main.js",
+		"/home/sergiy/GIT/sergiy85.github.io/myJS/MenuJS/index_menu.html",
+		"/home/sergiy/GIT/sergiy85.github.io/myJS/MenuJS/style.css",
+		"/home/sergiy/GIT/sergiy85.github.io/Moven/index.html",
+		"/home/sergiy/Рабочий стол/тестовое/COLORFUL_FLAT/index.html",
+		"/home/sergiy/Рабочий стол/тестовое/jquery-ui-accordion201017/babel/index.babel",
+		"/home/sergiy/Рабочий стол/тестовое/test-materials/HTML5-Background-Video-master/example/example.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/carousel.html",
+		"/home/sergiy/Рабочий стол/тестовое/Colorful_flat_BS4/src/assets/sass/style.scss",
+		"/home/sergiy/Рабочий стол/тестовое/Colorful_flat_BS4/src/index.html",
+		"/home/sergiy/Рабочий стол/тестовое/COLORFUL_FLAT-bootstrap-4/assets/src/index.html",
+		"/home/sergiy/Рабочий стол/тестовое/COLORFUL_FLAT-bootstrap-4/gulpfile.js",
+		"/home/sergiy/Рабочий стол/тестовое/COLORFUL_FLAT-bootstrap-4/assets/src/js/main.js",
+		"/home/sergiy/GIT/sergiy85.github.io/Brandy/gulpfile.js",
+		"/home/sergiy/Рабочий стол/тестовое/COLORFUL_FLAT/gulpfile.js",
+		"/home/sergiy/Рабочий стол/lessons/MY/firstJs.html",
+		"/home/sergiy/Рабочий стол/dir1/style.css",
+		"/home/sergiy/Рабочий стол/dir1/index.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/bordered/index.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/bordered/1.js",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/bordered/style.css",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/SLIDER/style.css",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/3.js",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/slider.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/2.js",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/massiv.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/1.js",
+		"/home/sergiy/Рабочий стол/lessons/MY/УРОКИ JS/index.html",
+		"/home/sergiy/Рабочий стол/JS/курс_Лаврик/ourJquery.html",
+		"/home/sergiy/Рабочий стол/html_library/LIBRARY/button-css/style.css",
+		"/home/sergiy/Рабочий стол/html_library/LIBRARY/button-css/script.js",
+		"/home/sergiy/Рабочий стол/Турист/hello-World.html",
+		"/home/sergiy/Рабочий стол/Турист/cat.html",
+		"/home/sergiy/Рабочий стол/Турист/index.html",
+		"/home/sergiy/Рабочий стол/index.html",
+		"/home/sergiy/Рабочий стол/html_library/LIBRARY/button-css/index.html",
+		"/home/sergiy/Рабочий стол/JS/курс_Лаврик/form.html",
+		"/home/sergiy/Рабочий стол/JS/курс_Лаврик/links.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/slider_oop.html",
+		"/home/sergiy/Рабочий стол/JS/курс_Лаврик/calc.html",
+		"/home/sergiy/Рабочий стол/JS/курс_Лаврик/lesson1.html",
+		"/home/sergiy/GIT/sergiy85.github.io/Good inc/css/style.css",
+		"/home/sergiy/Рабочий стол/lessons/brandi-master/index.html",
+		"/home/sergiy/Рабочий стол/lessons/Template111/js/main.js",
+		"/home/sergiy/GIT/sergiy85.github.io/Good_inc/index.html",
+		"/home/sergiy/Рабочий стол/lessons/Template111/index.html",
+		"/home/sergiy/Рабочий стол/lessons/Template111/css/style.css",
+		"/home/sergiy/Рабочий стол/lessons/barber_responsive-master/css/main.css",
+		"/home/sergiy/GIT/sergiy85.github.io/my_project_gulp/app/css/scss/main.css",
+		"/home/sergiy/Рабочий стол/lessons/js/заготовки/simple-slider-with-horizontal-scrolling/slider.js",
+		"/home/sergiy/Рабочий стол/lessons/js/заготовки/simple-slider-with-horizontal-scrolling/index.html",
+		"/home/sergiy/Рабочий стол/lessons/js/заготовки/simple-slider-with-horizontal-scrolling/slider.css",
+		"/home/sergiy/Рабочий стол/lessons/MY/slider_3.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/slider-master/main.css",
+		"/home/sergiy/Рабочий стол/lessons/MY/slider-master/index.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/hover.html",
+		"/home/sergiy/Рабочий стол/lessons/Экзамен/fitness_html/app/index.html",
+		"/home/sergiy/sergiy85.github.io/index.html",
+		"/home/sergiy/Рабочий стол/fitness_html/dist/index.html",
+		"/home/sergiy/sergiy85.github.io/fitness_html/dist/index.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/person.json",
+		"/home/sergiy/Рабочий стол/lessons/MY/ajax_lavrik.html",
+		"/home/sergiy/Рабочий стол/lessons/Экзамен/fitness_html/dist/index.html",
+		"/home/sergiy/Рабочий стол/lessons/beetroot-template-master/src/template.html",
+		"/home/sergiy/Рабочий стол/lessons/olios-master_nik/dist/products.html",
+		"/home/sergiy/Рабочий стол/lessons/olios-master_nik/dist/search.html",
+		"/home/sergiy/Рабочий стол/lessons/async-master/dist/index.html",
+		"/home/sergiy/Рабочий стол/lessons/Экзамен/Fitness__nunj_gulp/src/index.html",
+		"/home/sergiy/Рабочий стол/lessons/async-master/src/template.html",
+		"/home/sergiy/sergiy85.github.io/myJS/MenuJS/index_menu.html",
+		"/home/sergiy/Рабочий стол/lessons/async-master/src/views/index.html",
+		"/home/sergiy/Рабочий стол/lessons/Экзамен/demo/index.html",
+		"/home/sergiy/Рабочий стол/ДЗ/barber/barber/index.html",
+		"/home/sergiy/Рабочий стол/lessons/Экзамен/Fitness__nunj_gulp/src/template.html",
+		"/home/sergiy/Рабочий стол/html_library/САЙТЫ_ПРИМЕРЫ/TruScreen.html",
+		"/home/sergiy/Рабочий стол/lessons/olios-master_nik/dist/index.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/indexES2015.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/dropdownMenuCssJs.html",
+		"/home/sergiy/Рабочий стол/filters.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/preloader.html",
+		"/home/sergiy/Рабочий стол/lessons/MY/timerBack.html",
+		"/home/sergiy/Рабочий стол/lessons/newMaker/app/index.html",
+		"/home/sergiy/Рабочий стол/lessons/newMaker/app/src/scss/imports/_adjustment.scss",
+		"/home/sergiy/Рабочий стол/lessons/js/заготовки/tabsJS/index.html",
+		"/home/sergiy/Рабочий стол/lessons/js/заготовки/tabsJS/main.js",
+		"/home/sergiy/Рабочий стол/lessons/new_folder (копия)/scroll_nativeJS.html",
+		"/home/sergiy/Рабочий стол/lessons/new_folder (копия)/jQuery_scroll/js/main.js",
+		"/home/sergiy/Рабочий стол/lessons/new_folder (копия)/jQuery_scroll/index_scroll.html",
+		"/home/sergiy/Рабочий стол/lessons/new_folder (копия)/alert2.js",
+		"/home/sergiy/sergiy85.github.io/myJS/jQuery_scroll/js/main.js",
+		"/home/sergiy/JavaScript. Интенсивный курс для верстальщиков/JavaScript.dlya.verst.rant/06/js_lesson5_hw/1_elena/elena ¤§ ãà®ª5/scroll/index.html",
+		"/home/sergiy/JavaScript. Интенсивный курс для верстальщиков/JavaScript.dlya.verst.rant/06/js_lesson5_hw/1_elena/elena ¤§ ãà®ª5/scroll/js/scripts.js",
+		"/home/sergiy/Рабочий стол/scroll/js/script.js",
+		"/home/sergiy/Рабочий стол/scroll/index.html",
+		"/home/sergiy/Рабочий стол/lessons/new_folder (копия)/slider_oop.html",
+		"/home/sergiy/Рабочий стол/lessons/new_folder (копия)/scroll/scroll.html",
+		"/home/sergiy/Рабочий стол/lessons/new_folder (копия)/js/nicescroll/test/scroll3.html",
+		"/home/sergiy/Рабочий стол/lessons/js/scroll.html",
+		"/home/sergiy/Рабочий стол/lessons/new_folder (копия)/js/nicescroll/test/fixed.html",
+		"/home/sergiy/Рабочий стол/lessons/new_folder (копия)/js/nicescroll/test/browser.html",
+		"/home/sergiy/JavaScript. Интенсивный курс для верстальщиков/JavaScript.dlya.verst.rant/03/js_lesson2_hw/1_elena ¤§ ãà®ª2/§ ¤ ­¨¥3 elena/index.html",
+		"/home/sergiy/JavaScript. Интенсивный курс для верстальщиков/JavaScript.dlya.verst.rant/03/js_lesson2_hw/1_elena ¤§ ãà®ª2/§ ¤ ­¨¥3 elena/js/script.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
