@@ -9,7 +9,7 @@
   "keywords": [
     "nikolai"
   ],
-  "author": "",
+  "author": "sergiy",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.23.6",
