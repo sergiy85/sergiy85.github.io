@@ -1,0 +1,1 @@
+const mapsApp = angular.module('mapsApp', ['ui.bootstrap']);

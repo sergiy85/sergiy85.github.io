@@ -1,0 +1,215 @@
+/*
+** ========= Adjustment settings ====================
+*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-size: 20px;
+    color: rgb(51,51,51);
+}
+
+
+/* ================ ../Adjustments ============= */
+
+/* ============== Layout ========================== */
+/*
+** Navbar
+*/
+
+.navbar{
+    border: none !important;
+    background: #fff; 
+}
+.title{
+    font-size: 36px;
+    color: rgb(51,51,51)!important;
+}
+.search-asset{
+    padding: 20px 102px 18px 10px;
+    font-size: 16px;
+}
+.btn-add{
+    padding: 6px 32px;
+    font-size: 18px;
+}
+
+/*
+** Main
+*/
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Map settings */
+
+#map {
+    height: 75vh;
+    width: 100%;
+}
+.map-wrap{
+    width: 60%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.main-titles{
+    padding-left: 15px;
+    font-size: 18px;
+}
+.infoWindowContent {
+    font-size:  12px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+/* Search */
+
+.flexform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-descr{
+    max-width: 20%;
+    margin-bottom: 0;
+}
+.form-control{
+    max-width: 80%;
+}
+
+/* Assets */
+
+.marker-wrap{
+    width: 35%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.marker-title-wrap{
+    background-color: #eee;
+    padding: 1px;
+}
+
+.marker-list{
+    list-style-type: none;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 75vh;
+}
+.marker-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+.marker-item:last-child{
+    border-bottom: 1px solid #ccc;
+}
+
+.marker-link{
+    color: #000;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+/* Buttons */
+
+/*1*/
+.btn-light{
+    border:none;
+    background-color: #fff;
+    /* color:#fc4242; */
+    position: relative;
+    padding: 24px;
+    font-size: x-large;
+}
+
+.btn-light:hover{
+    opacity: 0.5;
+}
+
+/* 
+** 2. Btn custome ("Close") */
+
+.close-btn-sp {
+    position: absolute;
+    right: 24px;
+    top: 12px;
+    width: 26px;
+    height: 26px;
+    
+    border: none;
+    border-radius: 50%;
+}
+    
+.close-btn-sp::before, 
+.close-btn-sp::after {
+    position: absolute;
+    left: 17px;
+    top: -2px;
+    content: ' ';
+    height: 31px;
+    width: 2px;
+    background-color: #fc4242;
+}
+.close-btn-sp::before {
+    transform: rotate(45deg);
+}
+.close-btn-sp::after {
+    transform: rotate(-45deg);
+}
+
+/* 
+** ================== Media ==============
+*/ 
+
+@media (max-width: 768px){
+    .form-control{
+        max-width: 68%;
+    }
+    .form-descr{
+        font-size: 14px;
+    }
+    .search{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .search-asset{
+        padding-right: 10px;
+        font-size: 16px;
+    }
+    .btn-add{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px; 
+    }
+    
+}
+@media (max-width: 651px){
+    .main-content{
+        flex-direction: column;
+    }
+    .map-wrap{
+        width: 100%;
+    }
+    .marker-wrap{
+        width: 100%;
+    }
+}
+
+
+    
