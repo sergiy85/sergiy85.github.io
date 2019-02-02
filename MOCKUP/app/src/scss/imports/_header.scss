@@ -1,0 +1,27 @@
+.header {
+    background: transparent;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: background .2s ease-in-out;
+    z-index: 999;
+
+}
+
+.header--active-color {
+    background: #1b7f9b;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo__link {
+    display: block;
+    padding-left: 26px;
+
+}

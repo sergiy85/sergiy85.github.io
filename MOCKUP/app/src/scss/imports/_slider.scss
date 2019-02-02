@@ -1,0 +1,91 @@
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.slider-img__list{
+    position: relative;
+    margin: 0;    
+}
+
+.slider-img{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.bg-1{
+    background: url('../../../img/banner.png') center no-repeat;
+    background-size: cover;
+}
+.bg-2{
+    background: url('../../../img/pict1.jpg') center no-repeat;
+    background-size: cover;
+}
+.bg-3{
+    background: url('../../../img/pict2.jpg') center no-repeat;
+    background-size: cover;
+}
+.showed{
+    opacity: 1;
+}
+
+.prev{
+    position: absolute;
+    top: 220px;
+    left: 0;
+    width: 48px;
+    height: 87px;
+    text-align: center;
+    background: #585651;
+    border: none;
+    &:hover{
+        background:  #668333;;   
+    }
+}
+.next{
+    position: absolute;
+    top: 220px;
+    right: 0;
+    width: 48px;
+    height: 87px;
+    text-align: center;
+    background:  #585651;
+    border: none;
+    &:hover{
+        background:  #668333;;   
+    }
+}
+.descr{
+    font-size: 24px;
+}
+.slider-title--wrap span{
+    font-size: 34px;
+    color: #fff;
+    font-weight: 600;
+
+    @include small {
+        font-size: 28px;
+    }
+
+    &:last-child{
+        font-weight: 400;
+    }
+}
+.slider-title--wrap{
+    width: 439px;
+    background-color: #1b7f9b;
+    opacity: 0.9;
+    margin-left: 200px;
+    margin-top: 63vh;
+    padding: 10px;
+
+    @include medium{
+        width: 60vw;
+        margin: 40vh auto;
+    }
+}
