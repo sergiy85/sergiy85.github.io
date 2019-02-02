@@ -787,17 +787,17 @@ a {
   transition: opacity 1s; }
 
 .bg-1 {
-  background: url("../../../img/banner.png") center no-repeat;
+  background: url("../../img/banner.png") center no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
 
 .bg-2 {
-  background: url("../../../img/pict1.jpg") center no-repeat;
+  background: url("../../img/pict1.jpg") center no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
 
 .bg-3 {
-  background: url("../../../img/pict2.jpg") center no-repeat;
+  background: url("../../img/pict2.jpg") center no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
 
@@ -900,17 +900,17 @@ a {
       margin-right: 0; } }
 
 .galery-bg--1 {
-  background: url("../../../img/pic.png") center no-repeat;
+  background: url("../../img/pic.png") center no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
 
 .galery-bg--2 {
-  background: url("../../../img/Layer3.png") center no-repeat;
+  background: url("../../img/Layer3.png") center no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
 
 .galery-bg--3 {
-  background: url("../../../img/Layer4.png") center no-repeat;
+  background: url("../../img/Layer4.png") center no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
 
