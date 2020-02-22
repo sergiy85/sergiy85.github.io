@@ -1,0 +1,18 @@
+.works{
+  margin-top: 120px;
+}
+.works-contant--wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.media-title--wrap{
+  margin: 0 !important;
+}
+.media-wrap {
+  padding-left: 0;
+  overflow: hidden;
+}
+.media-wrap iframe {
+  width: 100%;
+  // height: 100%;
+}
