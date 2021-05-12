@@ -29,7 +29,7 @@
     "gulp-uglifyjs": "^0.6.2",
     "imagemin-pngquant": "^5.0.1",
     "smart-grid": "^2.0.1",
-    "swiper": "^4.1.0"
+    "swiper": "^6.5.1"
   },
   "dependencies": {
     "gulp-sass-error": "^1.0.5"
